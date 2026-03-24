@@ -95,7 +95,8 @@ export default function Index() {
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ delay: 0.8, duration: 0.8 }}
-            className="text-muted-foreground font-body text-lg md:text-xl mb-10 max-w-2xl mx-auto"
+            className="font-body text-lg md:text-xl font-medium mb-10 max-w-[650px] mx-auto leading-relaxed"
+            style={{ color: '#F5F5F5', textShadow: '0px 2px 8px rgba(0,0,0,0.6)' }}
           >
             Showrooms that convert. Offices that inspire. Spaces engineered for business impact.
           </motion.p>
