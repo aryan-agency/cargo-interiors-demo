@@ -1,4 +1,4 @@
-import { useRef } from "react";
+import { useRef, useState, useCallback } from "react";
 import { motion, useInView } from "framer-motion";
 import heroImage from "@/assets/hero-showroom.jpg";
 import showroomImage from "@/assets/showroom-interior.jpg";
@@ -12,6 +12,7 @@ import HeroSlider from "@/components/HeroSlider";
 import FactBox from "@/components/FactBox";
 import BrandLogoSlider from "@/components/BrandLogoSlider";
 import TechVisualization from "@/components/TechVisualization";
+import IntroAnimation from "@/components/IntroAnimation";
 
 const WA_LINK = "https://wa.me/919050656162?text=Hi%2C%20Cargo%20Interiors!%20I%20wanted%20to%20discuss%20about%20some%20interior%20designing%20project%2C%20Please%20reply.%20Thanks!";
 
@@ -62,8 +63,12 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 }
 
 export default function Index() {
+  const [introComplete, setIntroComplete] = useState(false);
+  const handleIntroComplete = useCallback(() => setIntroComplete(true), []);
+
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      {!introComplete && <IntroAnimation onComplete={handleIntroComplete} />}
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
