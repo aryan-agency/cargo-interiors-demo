@@ -43,7 +43,7 @@ export default function BrandLogoSlider() {
                 alt={brand.alt}
                 loading="eager"
                 decoding="sync"
-                className="h-full w-auto object-contain brightness-0 invert opacity-60 hover:opacity-90 transition-opacity duration-300"
+                className="h-full w-auto object-contain opacity-80 hover:opacity-100 transition-opacity duration-300"
               />
             </div>
           ))}
