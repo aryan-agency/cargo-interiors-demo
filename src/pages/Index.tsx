@@ -286,6 +286,13 @@ export default function Index() {
 
       <div className="section-divider max-w-6xl mx-auto" />
 
+      {/* TECH VISUALIZATION */}
+      <Section className="py-24 md:py-32">
+        <TechVisualization />
+      </Section>
+
+      <div className="section-divider max-w-6xl mx-auto" />
+
       {/* PORTFOLIO */}
       <Section className="py-24 md:py-32">
         <div className="max-w-6xl mx-auto px-6">
