@@ -11,6 +11,7 @@ import project3 from "@/assets/project-3.jpg";
 import HeroSlider from "@/components/HeroSlider";
 import FactBox from "@/components/FactBox";
 import BrandLogoSlider from "@/components/BrandLogoSlider";
+import TechVisualization from "@/components/TechVisualization";
 
 const WA_LINK = "https://wa.me/919050656162?text=Hi%2C%20Cargo%20Interiors!%20I%20wanted%20to%20discuss%20about%20some%20interior%20designing%20project%2C%20Please%20reply.%20Thanks!";
 
@@ -281,6 +282,13 @@ export default function Index() {
             ))}
           </div>
         </div>
+      </Section>
+
+      <div className="section-divider max-w-6xl mx-auto" />
+
+      {/* TECH VISUALIZATION */}
+      <Section className="py-24 md:py-32">
+        <TechVisualization />
       </Section>
 
       <div className="section-divider max-w-6xl mx-auto" />
