@@ -82,8 +82,8 @@ export default function Index() {
 
       {/* HERO */}
       <section className="relative h-screen flex items-center justify-center">
-        <img src={heroImage} alt="Luxury commercial interior" className="absolute inset-0 w-full h-full object-cover" width={1920} height={1080} />
-        <div className="hero-overlay absolute inset-0" />
+        <HeroSlider images={[heroImage, showroomImage, officeImage, commercialImage]} interval={3000} />
+        <FactBox />
         <div className="relative z-10 text-center max-w-4xl px-6">
           <motion.p
             initial={{ opacity: 0 }}
@@ -131,7 +131,8 @@ export default function Index() {
         </motion.div>
       </section>
 
-      {/* TRUST BAR */}
+      {/* BRAND LOGO SLIDER */}
+      <BrandLogoSlider />
       <Section className="py-16 border-y border-border">
         <div className="max-w-6xl mx-auto px-6 grid grid-cols-2 md:grid-cols-4 gap-8 text-center">
           {[
