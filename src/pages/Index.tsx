@@ -63,8 +63,12 @@ function SectionLabel({ children }: { children: React.ReactNode }) {
 }
 
 export default function Index() {
+  const [introComplete, setIntroComplete] = useState(false);
+  const handleIntroComplete = useCallback(() => setIntroComplete(true), []);
+
   return (
     <div className="min-h-screen bg-background text-foreground overflow-x-hidden">
+      {!introComplete && <IntroAnimation onComplete={handleIntroComplete} />}
       {/* NAV */}
       <nav className="fixed top-0 left-0 right-0 z-50 bg-background/80 backdrop-blur-md border-b border-border/50">
         <div className="max-w-7xl mx-auto px-6 py-4 flex items-center justify-between">
