@@ -391,6 +391,36 @@ export default function Index() {
         </div>
       </section>
 
+      {/* FAQ */}
+      <Section className="py-24 md:py-32">
+        <div className="max-w-3xl mx-auto px-6">
+          <div className="text-center mb-16">
+            <SectionLabel>Common Questions</SectionLabel>
+            <h2 className="font-display text-3xl md:text-5xl font-bold">
+              Frequently <span className="text-gradient-gold">Asked</span>
+            </h2>
+          </div>
+          <div className="space-y-4">
+            {[
+              { q: "What types of projects does Cargo Interiors handle?", a: "We specialize in premium commercial interiors — showrooms, corporate offices, restaurants, retail stores, clinics, and select residential projects across India." },
+              { q: "How does the design process work?", a: "It starts with a consultation to understand your goals. We then create high-fidelity 3D visualizations for your review. Once approved, our team executes the project end-to-end with precision." },
+              { q: "Do you provide 3D renders before starting work?", a: "Absolutely. Every project begins with photo-realistic 3D renders so you can visualize, review, and approve the design before any construction begins — no surprises." },
+              { q: "What is the typical project timeline?", a: "Timelines vary based on scope, but most commercial projects are completed within 6–12 weeks. Our 80+ member team ensures rapid, on-schedule delivery." },
+              { q: "Which cities do you operate in?", a: "We are based in Gurugram, Haryana and have delivered 100+ projects across 15+ cities in India." },
+              { q: "How do I get started?", a: "Simply book a free consultation via WhatsApp or phone. We'll discuss your vision, visit the site if needed, and provide a detailed proposal within days." },
+            ].map((faq, i) => (
+              <details key={i} className="group bg-card border border-border rounded-lg">
+                <summary className="flex items-center justify-between cursor-pointer px-6 py-5 font-display font-semibold text-sm md:text-base select-none">
+                  {faq.q}
+                  <span className="ml-4 text-primary transition-transform duration-300 group-open:rotate-45 text-xl leading-none">+</span>
+                </summary>
+                <p className="px-6 pb-5 text-muted-foreground font-body text-sm leading-relaxed">{faq.a}</p>
+              </details>
+            ))}
+          </div>
+        </div>
+      </Section>
+
       {/* FOOTER */}
       <footer className="py-16 border-t border-border">
         <div className="max-w-6xl mx-auto px-6">
