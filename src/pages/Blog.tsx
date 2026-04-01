@@ -39,11 +39,12 @@ export default function Blog() {
             <button
               key={cat}
               onClick={() => setActiveCategory(cat as BlogCategory | "All")}
-              className={`font-body text-xs uppercase tracking-[0.15em] px-5 py-2.5 rounded-full border transition-colors ${
+              className={`font-body text-xs uppercase tracking-[0.15em] px-5 py-2.5 border transition-all duration-300 ${
                 activeCategory === cat
-                  ? "bg-primary text-primary-foreground border-primary"
+                  ? "bg-primary text-primary-foreground border-primary shadow-[0_0_15px_hsla(40,50%,55%,0.35)]"
                   : "border-border text-muted-foreground hover:border-primary hover:text-primary"
               }`}
+              style={{ borderRadius: '12px' }}
             >
               {cat}
             </button>
