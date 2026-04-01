@@ -183,22 +183,21 @@ export default function BlogPost() {
         </div>
       </section>
 
-      {/* CTA */}
+      {/* Universal CTA */}
       <Section className="px-6 pb-24">
         <div className="max-w-3xl mx-auto bg-card border border-border rounded-xl p-8 md:p-12 text-center">
-          <SectionLabel>Get Started</SectionLabel>
-          <h2 className="font-display text-2xl md:text-3xl font-bold mb-4">
-            Looking for Interior Design in <span className="text-primary">Gurugram</span>?
-          </h2>
-          <p className="text-muted-foreground font-body mb-8 max-w-xl mx-auto leading-relaxed">
-            Whether it's office, showroom, restaurant, or home interior design — Cargo Interiors delivers premium results. Get a free consultation today.
+          <p className="text-muted-foreground font-body text-base leading-relaxed mb-8">
+            If you're searching for the best interior designer in Gurugram or looking for office and showroom interior designers near you, Cargo Interiors is here to help. We specialize in creating high-performance commercial spaces with a focus on design, functionality, and results.
           </p>
           <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
-            <CTAButton>Book Consultation</CTAButton>
-            <a href="tel:+919050656162"
+            <a href="https://wa.me/919050656162?text=Hi%2C%20Cargo%20Interiors!%20I%20wanted%20to%20discuss%20about%20some%20interior%20designing%20project%2C%20Please%20reply.%20Thanks" target="_blank" rel="noopener noreferrer"
+              className="inline-block bg-primary text-primary-foreground px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.2em] rounded-lg hover:bg-primary/90 transition-colors">
+              Book Consultation
+            </a>
+            <Link to="/contact-us"
               className="inline-block border border-primary text-primary px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.2em] rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors">
               Contact Us
-            </a>
+            </Link>
           </div>
         </div>
       </Section>
