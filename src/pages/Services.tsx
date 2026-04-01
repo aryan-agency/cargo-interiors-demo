@@ -46,8 +46,10 @@ export default function Services() {
         description="Cargo Interiors provides commercial interior design in Gurugram for offices, showrooms, and retail spaces. Get complete turnkey interior solutions."
         canonical="https://cargo-interiors-demo.lovable.app/services"
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema("Office Interior Design", "Expert office interior design services in Gurugram. Modern, productive workspace design and execution.")) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema("Showroom Interior Design", "Premium showroom interior design in Gurugram. High-conversion retail layouts with turnkey execution.")) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema("Commercial Interior Design", "Complete commercial interior design in Gurugram for offices, showrooms, restaurants, and retail spaces.")) }} />
 
-      {/* Hero */}
       <section className="pt-28 pb-20 md:pt-36 md:pb-28 bg-card border-b border-border">
         <div className="max-w-4xl mx-auto px-6 text-center">
           <SectionLabel>Our Services</SectionLabel>
