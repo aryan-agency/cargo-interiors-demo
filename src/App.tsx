@@ -9,6 +9,8 @@ import AboutUs from "./pages/AboutUs.tsx";
 import Services from "./pages/Services.tsx";
 import RestaurantInterior from "./pages/RestaurantInterior.tsx";
 import HomeInterior from "./pages/HomeInterior.tsx";
+import Blog from "./pages/Blog.tsx";
+import BlogPost from "./pages/BlogPost.tsx";
 import NotFound from "./pages/NotFound.tsx";
 
 const queryClient = new QueryClient();
