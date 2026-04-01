@@ -13,6 +13,7 @@ export default function AboutUs() {
         description="Cargo Interiors is a leading interior design company in Gurugram with 10+ years experience in office, showroom, and commercial interior design. 100+ projects delivered."
         canonical="https://cargo-interiors-demo.lovable.app/about-us"
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
 
       {/* Hero Banner */}
       <section className="pt-28 pb-20 md:pt-36 md:pb-28 bg-card border-b border-border">

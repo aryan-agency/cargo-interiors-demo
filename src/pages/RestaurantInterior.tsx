@@ -13,6 +13,7 @@ export default function RestaurantInterior() {
         description="Expert restaurant and café interior design in Gurugram. Create stunning dining spaces that boost footfall with turnkey design and execution solutions."
         canonical="https://cargo-interiors-demo.lovable.app/restaurant-interior"
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema("Restaurant Interior Design", "Expert restaurant and café interior design in Gurugram. Stunning dining spaces with turnkey design and execution.")) }} />
 
       {/* Hero */}
       <section className="pt-28 pb-20 md:pt-36 md:pb-28 bg-card border-b border-border">

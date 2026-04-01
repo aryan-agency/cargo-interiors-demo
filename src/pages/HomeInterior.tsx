@@ -13,6 +13,7 @@ export default function HomeInterior() {
         description="Premium home interior design in Gurugram. Modular kitchens, living rooms, bedrooms & complete home renovation by the best interior designers near you."
         canonical="https://cargo-interiors-demo.lovable.app/home-interior"
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(serviceSchema("Home Interior Design", "Premium home interior design in Gurugram. Modular kitchens, living rooms, bedrooms & complete home renovation.")) }} />
 
       {/* Hero */}
       <section className="pt-28 pb-20 md:pt-36 md:pb-28 bg-card border-b border-border">
