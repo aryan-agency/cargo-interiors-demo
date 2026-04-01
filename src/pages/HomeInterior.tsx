@@ -127,7 +127,7 @@ export default function HomeInterior() {
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <CTAButton>Book a Free Home Visit</CTAButton>
-            <Link to="/services" className="inline-block border border-primary text-primary px-8 py-4 font-body text-sm font-semibold uppercase tracking-[0.2em] rounded-lg hover:bg-primary hover:text-primary-foreground transition-colors">
+            <Link to="/services" className="btn-glow-outline">
               View All Services
             </Link>
           </div>

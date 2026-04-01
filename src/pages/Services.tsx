@@ -72,7 +72,7 @@ export default function Services() {
               <div className="flex flex-wrap gap-4">
                 <CTAButton className="text-xs px-6 py-3">Get a Quote</CTAButton>
                 {service.slug && (
-                  <Link to={service.slug} className="inline-block border border-primary text-primary px-6 py-3 font-body text-xs uppercase tracking-[0.2em] hover:bg-primary hover:text-primary-foreground transition-colors">
+                  <Link to={service.slug} className="btn-glow-outline !px-6 !py-3 !text-xs">
                     Learn More →
                   </Link>
                 )}
