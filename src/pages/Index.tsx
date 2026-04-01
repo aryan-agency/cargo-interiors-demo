@@ -16,6 +16,7 @@ import TechVisualization from "@/components/TechVisualization";
 import IntroAnimation from "@/components/IntroAnimation";
 import SEOHead from "@/components/SEOHead";
 import { Section, CTAButton, SectionLabel, WA_LINK } from "@/components/Layout";
+import { organizationSchema, localBusinessSchema, serviceSchema } from "@/data/schemaMarkup";
 
 export default function Index() {
   const [introComplete, setIntroComplete] = useState(false);
@@ -28,6 +29,8 @@ export default function Index() {
         description="Looking for the best interior designer in Gurugram? Cargo Interiors specializes in office interior design, showroom interiors, and commercial spaces with 3D design and execution."
         canonical="https://cargo-interiors-demo.lovable.app/"
       />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(organizationSchema) }} />
+      <script type="application/ld+json" dangerouslySetInnerHTML={{ __html: JSON.stringify(localBusinessSchema) }} />
       {!introComplete && <IntroAnimation onComplete={handleIntroComplete} />}
 
       {/* HERO */}
