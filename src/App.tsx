@@ -28,8 +28,8 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/office-interior-design-gurgaon" element={<Services />} />
-            <Route path="/showroom-interior-design-gurgaon" element={<Services />} />
+            <Route path="/office-interior-design-gurgaon" element={<OfficeInterior />} />
+            <Route path="/showroom-interior-design-gurgaon" element={<ShowroomInterior />} />
             <Route path="/commercial-interior-design-gurgaon" element={<Services />} />
             <Route path="/restaurant-interior" element={<RestaurantInterior />} />
             <Route path="/home-interior" element={<HomeInterior />} />
