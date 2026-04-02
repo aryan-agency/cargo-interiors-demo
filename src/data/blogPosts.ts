@@ -85,6 +85,11 @@ export const blogPosts: BlogPost[] = [
       { question: "How long does an office interior project take in Gurugram?", answer: "A typical office interior project takes 4 to 12 weeks depending on the size and scope. Cargo Interiors provides a detailed timeline during the planning phase." },
       { question: "Does Cargo Interiors offer 3D visualization for office projects?", answer: "Yes, we provide photorealistic 3D renders so you can visualize every detail before construction begins." },
     ],
+    internalLink: {
+      anchorText: "interior designer in Gurugram",
+      url: "/office-interior-design-gurgaon",
+      paragraphIndex: 0,
+    },
   },
   {
     slug: "best-restaurant-interior-design-ideas-gurugram",
