@@ -104,9 +104,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h4 className="font-display font-bold mb-4 text-sm">Services</h4>
               <div className="space-y-2 text-muted-foreground text-sm font-body">
-                <Link to="/services" className="block hover:text-primary transition-colors">All Services</Link>
-                <Link to="/restaurant-interior" className="block hover:text-primary transition-colors">Restaurant Interior</Link>
-                <Link to="/home-interior" className="block hover:text-primary transition-colors">Home Interior</Link>
+                <Link to="/office-interior-design-gurgaon" className="block hover:text-primary transition-colors">Office Interior Design Gurgaon</Link>
+                <Link to="/showroom-interior-design-gurgaon" className="block hover:text-primary transition-colors">Showroom Interior Design Gurgaon</Link>
+                <Link to="/commercial-interior-design-gurgaon" className="block hover:text-primary transition-colors">Commercial Interior Design Gurgaon</Link>
+                <Link to="/home-interior" className="block hover:text-primary transition-colors">Home Interior Design</Link>
+                <Link to="/restaurant-interior" className="block hover:text-primary transition-colors">Restaurant Interior Design</Link>
               </div>
             </div>
             <div>
