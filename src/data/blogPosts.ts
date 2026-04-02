@@ -261,5 +261,10 @@ export const blogPosts: BlogPost[] = [
       { question: "What is commercial interior design?", answer: "Commercial interior design focuses on creating functional, branded, and aesthetically pleasing spaces for businesses including offices, retail stores, restaurants, and showrooms." },
       { question: "How can commercial interior design improve productivity?", answer: "Thoughtful design incorporating natural light, ergonomic furniture, acoustic comfort, and collaboration zones can improve employee productivity by 10-25%." },
     ],
+    internalLink: {
+      anchorText: "interior designer in Gurugram",
+      url: "/commercial-interior-design-gurgaon",
+      paragraphIndex: 0,
+    },
   },
 ];
