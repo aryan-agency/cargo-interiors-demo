@@ -7,6 +7,8 @@ import Layout from "@/components/Layout";
 import Index from "./pages/Index.tsx";
 import AboutUs from "./pages/AboutUs.tsx";
 import Services from "./pages/Services.tsx";
+import OfficeInterior from "./pages/OfficeInterior.tsx";
+import ShowroomInterior from "./pages/ShowroomInterior.tsx";
 import RestaurantInterior from "./pages/RestaurantInterior.tsx";
 import HomeInterior from "./pages/HomeInterior.tsx";
 import Blog from "./pages/Blog.tsx";
@@ -26,8 +28,8 @@ const App = () => (
             <Route path="/" element={<Index />} />
             <Route path="/about-us" element={<AboutUs />} />
             <Route path="/services" element={<Services />} />
-            <Route path="/office-interior-design-gurgaon" element={<Services />} />
-            <Route path="/showroom-interior-design-gurgaon" element={<Services />} />
+            <Route path="/office-interior-design-gurgaon" element={<OfficeInterior />} />
+            <Route path="/showroom-interior-design-gurgaon" element={<ShowroomInterior />} />
             <Route path="/commercial-interior-design-gurgaon" element={<Services />} />
             <Route path="/restaurant-interior" element={<RestaurantInterior />} />
             <Route path="/home-interior" element={<HomeInterior />} />
