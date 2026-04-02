@@ -130,6 +130,11 @@ export const blogPosts: BlogPost[] = [
       { question: "How much does restaurant interior design cost in Gurugram?", answer: "Restaurant interior design in Gurugram typically costs between ₹1,500 to ₹4,000 per sq. ft. depending on the theme, materials, and complexity of the design." },
       { question: "How long does it take to design a restaurant interior?", answer: "A complete restaurant interior project usually takes 6 to 16 weeks from concept to handover, depending on the size and design complexity." },
     ],
+    internalLink: {
+      anchorText: "interior designer in Gurugram",
+      url: "/commercial-interior-design-gurgaon",
+      paragraphIndex: 0,
+    },
   },
   {
     slug: "home-interior-design-trends-2025",
