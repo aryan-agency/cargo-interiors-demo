@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import SEOHead from "@/components/SEOHead";
 import { Section, CTAButton, SectionLabel, WA_LINK } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
+import type { BlogInternalLink } from "@/data/blogPosts";
 
 function ShareButtons({ url, title }: { url: string; title: string }) {
   const encoded = encodeURIComponent(url);
