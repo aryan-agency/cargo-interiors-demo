@@ -47,10 +47,10 @@ export function SectionLabel({ children }: { children: React.ReactNode }) {
 
 const NAV_LINKS = [
   { to: "/", label: "Home" },
+  { to: "/office-interior-design-gurgaon", label: "Office Interiors Gurgaon" },
+  { to: "/showroom-interior-design-gurgaon", label: "Showroom Interiors Gurgaon" },
+  { to: "/commercial-interior-design-gurgaon", label: "Commercial Interiors Gurgaon" },
   { to: "/about-us", label: "About" },
-  { to: "/services", label: "Services" },
-  { to: "/restaurant-interior", label: "Restaurant" },
-  { to: "/home-interior", label: "Home Interior" },
   { to: "/blog", label: "Blog" },
 ];
 
@@ -104,9 +104,11 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             <div>
               <h4 className="font-display font-bold mb-4 text-sm">Services</h4>
               <div className="space-y-2 text-muted-foreground text-sm font-body">
-                <Link to="/services" className="block hover:text-primary transition-colors">All Services</Link>
-                <Link to="/restaurant-interior" className="block hover:text-primary transition-colors">Restaurant Interior</Link>
-                <Link to="/home-interior" className="block hover:text-primary transition-colors">Home Interior</Link>
+                <Link to="/office-interior-design-gurgaon" className="block hover:text-primary transition-colors">Office Interior Design Gurgaon</Link>
+                <Link to="/showroom-interior-design-gurgaon" className="block hover:text-primary transition-colors">Showroom Interior Design Gurgaon</Link>
+                <Link to="/commercial-interior-design-gurgaon" className="block hover:text-primary transition-colors">Commercial Interior Design Gurgaon</Link>
+                <Link to="/home-interior" className="block hover:text-primary transition-colors">Home Interior Design</Link>
+                <Link to="/restaurant-interior" className="block hover:text-primary transition-colors">Restaurant Interior Design</Link>
               </div>
             </div>
             <div>
@@ -128,6 +130,9 @@ export default function Layout({ children }: { children: React.ReactNode }) {
             </div>
           </div>
           <div className="section-divider mb-8" />
+          <p className="text-muted-foreground text-sm font-body leading-relaxed mb-8">
+            Cargo Interiors is a leading office and showroom interior design company in Gurgaon (Gurugram), specializing in high-performance commercial spaces. We design offices and retail showrooms that enhance business growth through smart layouts, premium aesthetics, and precise execution.
+          </p>
           <div className="flex flex-col sm:flex-row items-center justify-between gap-4">
             <p className="text-muted-foreground text-xs font-body">© 2025 Cargo Interiors. All rights reserved.</p>
             <p className="text-muted-foreground text-xs font-body">ISO Certified · MSME Registered · Make in India</p>
