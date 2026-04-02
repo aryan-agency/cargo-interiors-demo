@@ -3,6 +3,7 @@ import { useEffect } from "react";
 import SEOHead from "@/components/SEOHead";
 import { Section, CTAButton, SectionLabel, WA_LINK } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
+import type { BlogInternalLink } from "@/data/blogPosts";
 
 function ShareButtons({ url, title }: { url: string; title: string }) {
   const encoded = encodeURIComponent(url);
@@ -122,8 +123,22 @@ export default function BlogPost() {
         <article className="max-w-3xl mx-auto prose-custom">
           {post.content.map((block, i) => {
             switch (block.type) {
-              case "paragraph":
+              case "paragraph": {
+                const shouldLink = post.internalLink && i === post.internalLink.paragraphIndex && block.text;
+                if (shouldLink && block.text!.includes(post.internalLink!.anchorText)) {
+                  const parts = block.text!.split(post.internalLink!.anchorText);
+                  return (
+                    <p key={i} className="text-muted-foreground font-body text-base leading-relaxed mb-6">
+                      {parts[0]}
+                      <Link to={post.internalLink!.url} className="text-primary hover:underline">
+                        {post.internalLink!.anchorText}
+                      </Link>
+                      {parts.slice(1).join(post.internalLink!.anchorText)}
+                    </p>
+                  );
+                }
                 return <p key={i} className="text-muted-foreground font-body text-base leading-relaxed mb-6">{block.text}</p>;
+              }
               case "heading":
                 return <h2 key={i} className="font-display text-2xl font-bold mt-10 mb-4 text-foreground">{block.text}</h2>;
               case "subheading":

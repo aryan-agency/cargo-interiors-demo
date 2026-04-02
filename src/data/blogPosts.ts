@@ -1,3 +1,9 @@
+export interface BlogInternalLink {
+  anchorText: string;
+  url: string;
+  paragraphIndex: number; // index in content array where the link should be injected
+}
+
 export interface BlogPost {
   slug: string;
   title: string;
@@ -11,6 +17,7 @@ export interface BlogPost {
   author: string;
   content: BlogSection[];
   faq?: { question: string; answer: string }[];
+  internalLink?: BlogInternalLink;
 }
 
 export type BlogCategory = "Office Interior" | "Showroom Interior" | "Commercial Design" | "Interior Design Tips";
@@ -78,6 +85,11 @@ export const blogPosts: BlogPost[] = [
       { question: "How long does an office interior project take in Gurugram?", answer: "A typical office interior project takes 4 to 12 weeks depending on the size and scope. Cargo Interiors provides a detailed timeline during the planning phase." },
       { question: "Does Cargo Interiors offer 3D visualization for office projects?", answer: "Yes, we provide photorealistic 3D renders so you can visualize every detail before construction begins." },
     ],
+    internalLink: {
+      anchorText: "interior designer in Gurugram",
+      url: "/office-interior-design-gurgaon",
+      paragraphIndex: 0,
+    },
   },
   {
     slug: "best-restaurant-interior-design-ideas-gurugram",
@@ -118,6 +130,11 @@ export const blogPosts: BlogPost[] = [
       { question: "How much does restaurant interior design cost in Gurugram?", answer: "Restaurant interior design in Gurugram typically costs between ₹1,500 to ₹4,000 per sq. ft. depending on the theme, materials, and complexity of the design." },
       { question: "How long does it take to design a restaurant interior?", answer: "A complete restaurant interior project usually takes 6 to 16 weeks from concept to handover, depending on the size and design complexity." },
     ],
+    internalLink: {
+      anchorText: "interior designer in Gurugram",
+      url: "/commercial-interior-design-gurgaon",
+      paragraphIndex: 0,
+    },
   },
   {
     slug: "home-interior-design-trends-2025",
@@ -153,6 +170,11 @@ export const blogPosts: BlogPost[] = [
       { question: "What are the latest home interior design trends in Gurugram?", answer: "The top trends include smart home integration, sustainable materials, open floor plans with defined zones, and luxury kitchen and bathroom makeovers." },
       { question: "How much does home interior design cost in Gurugram?", answer: "Home interior design in Gurugram ranges from ₹1,000 to ₹3,000 per sq. ft. depending on the scope, materials, and level of customization required." },
     ],
+    internalLink: {
+      anchorText: "interior designer in Gurugram",
+      url: "/office-interior-design-gurgaon",
+      paragraphIndex: 0,
+    },
   },
   {
     slug: "showroom-interior-design-gurugram",
@@ -196,6 +218,11 @@ export const blogPosts: BlogPost[] = [
       { question: "How much does showroom interior design cost in Gurugram?", answer: "Showroom interior design costs in Gurugram range from ₹1,200 to ₹3,500 per sq. ft. based on the brand positioning, materials, and design complexity." },
       { question: "Can Cargo Interiors design showrooms outside Gurugram?", answer: "Yes, while based in Gurugram, we take on showroom design projects across Delhi NCR, Noida, Faridabad, and other cities in India." },
     ],
+    internalLink: {
+      anchorText: "showroom interior design in Gurugram",
+      url: "/showroom-interior-design-gurgaon",
+      paragraphIndex: 0,
+    },
   },
   {
     slug: "commercial-interior-design-tips-gurugram",
@@ -234,5 +261,10 @@ export const blogPosts: BlogPost[] = [
       { question: "What is commercial interior design?", answer: "Commercial interior design focuses on creating functional, branded, and aesthetically pleasing spaces for businesses including offices, retail stores, restaurants, and showrooms." },
       { question: "How can commercial interior design improve productivity?", answer: "Thoughtful design incorporating natural light, ergonomic furniture, acoustic comfort, and collaboration zones can improve employee productivity by 10-25%." },
     ],
+    internalLink: {
+      anchorText: "interior designer in Gurugram",
+      url: "/commercial-interior-design-gurgaon",
+      paragraphIndex: 0,
+    },
   },
 ];
