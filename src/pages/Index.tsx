@@ -140,8 +140,19 @@ export default function Index() {
             <CTAButton className="text-xs px-6 py-3">Let's Talk</CTAButton>
           </div>
           <div className="relative">
-            <img src={showroomImage} alt="Premium showroom interior by Cargo Interiors, interior designer in Gurugram" className="w-full aspect-[4/5] object-cover" loading="lazy" width={1280} height={960} />
-            <div className="absolute -bottom-6 -left-6 bg-card border border-border p-6">
+            <PremiumCarousel
+              images={[carousel1, carousel2, carousel3, carousel4, carousel5, carousel6, carousel7]}
+              alts={[
+                "Premium commercial building exterior design in Gurgaon",
+                "Modern glass facade office building by Cargo Interiors",
+                "Luxury retail showroom exterior design Gurugram",
+                "High-end showroom facade with premium lighting",
+                "Premium showroom building exterior design",
+                "Modern corporate office tower in Gurgaon",
+                "Commercial building with contemporary glass architecture",
+              ]}
+            />
+            <div className="absolute -bottom-6 -left-6 bg-card border border-border p-6 z-20">
               <span className="font-display text-2xl font-bold text-primary">Since 2015</span>
               <p className="text-muted-foreground text-sm font-body mt-1">Gurugram, Haryana</p>
             </div>
