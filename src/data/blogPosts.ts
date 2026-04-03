@@ -428,7 +428,7 @@ export const blogPosts: BlogPost[] = [
     excerpt: "Planning to design your office in Gurgaon but confused about the cost? Ye sabse common question hai. Full cost breakdown aur expert tips yahan dekhein.",
     image: "https://images.unsplash.com/photo-1497366216548-37526070297c?w=800",
     imageAlt: "Office interior design cost breakdown Gurgaon",
-    date: "April 3, 2026",
+    date: "2026-04-03",
     author: "Cargo Interiors Team",
     content: [
       {
