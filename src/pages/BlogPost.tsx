@@ -1,37 +1,41 @@
 import { useParams, Link, Navigate } from "react-router-dom";
-import { useEffect } from "react";
+import { useEffect, useState } from "react";
 import SEOHead from "@/components/SEOHead";
 import { Section, CTAButton, SectionLabel, WA_LINK } from "@/components/Layout";
 import { blogPosts } from "@/data/blogPosts";
 import type { BlogInternalLink } from "@/data/blogPosts";
 
+const shareButtonClass =
+  "px-4 py-2 rounded-full border border-border text-sm font-body text-muted-foreground hover:border-primary hover:text-primary hover:shadow-[0_0_8px_hsl(var(--primary)/0.3)] hover:scale-105 transition-all duration-300";
+
 function ShareButtons({ url, title }: { url: string; title: string }) {
   const encoded = encodeURIComponent(url);
   const encodedTitle = encodeURIComponent(title);
+  const [copied, setCopied] = useState(false);
 
   const copyLink = () => {
     navigator.clipboard.writeText(url);
-    alert("Link copied to clipboard!");
+    setCopied(true);
+    setTimeout(() => setCopied(false), 2000);
   };
 
   return (
     <div className="flex flex-wrap items-center gap-3">
       <span className="text-muted-foreground font-body text-xs uppercase tracking-[0.15em]">Share:</span>
-      <a href={`https://wa.me/?text=${encodedTitle}%20${encoded}`} target="_blank" rel="noopener noreferrer"
-        className="px-4 py-2 rounded-full border border-border text-sm font-body text-muted-foreground hover:border-primary hover:text-primary transition-colors">
+      <a href={`https://wa.me/?text=${encodedTitle}%20${encoded}`} target="_blank" rel="noopener noreferrer" className={shareButtonClass}>
         WhatsApp
       </a>
-      <a href={`https://www.facebook.com/sharer/sharer.php?u=${encoded}`} target="_blank" rel="noopener noreferrer"
-        className="px-4 py-2 rounded-full border border-border text-sm font-body text-muted-foreground hover:border-primary hover:text-primary transition-colors">
+      <a href={`https://www.facebook.com/sharer/sharer.php?u=${encoded}`} target="_blank" rel="noopener noreferrer" className={shareButtonClass}>
         Facebook
       </a>
-      <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encoded}`} target="_blank" rel="noopener noreferrer"
-        className="px-4 py-2 rounded-full border border-border text-sm font-body text-muted-foreground hover:border-primary hover:text-primary transition-colors">
+      <a href={`https://www.linkedin.com/sharing/share-offsite/?url=${encoded}`} target="_blank" rel="noopener noreferrer" className={shareButtonClass}>
         LinkedIn
       </a>
-      <button onClick={copyLink}
-        className="px-4 py-2 rounded-full border border-border text-sm font-body text-muted-foreground hover:border-primary hover:text-primary transition-colors">
-        Copy Link
+      <a href={`https://twitter.com/intent/tweet?url=${encoded}&text=${encodedTitle}`} target="_blank" rel="noopener noreferrer" className={shareButtonClass}>
+        X / Twitter
+      </a>
+      <button onClick={copyLink} className={shareButtonClass}>
+        {copied ? "✓ Link Copied!" : "Copy Link"}
       </button>
     </div>
   );
