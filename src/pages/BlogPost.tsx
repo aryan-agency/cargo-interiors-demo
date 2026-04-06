@@ -50,6 +50,7 @@ export default function BlogPost() {
   if (!post) return <Navigate to="/blog" replace />;
 
   const postUrl = `https://cargo-interiors-demo.lovable.app/blog/${post.slug}`;
+  // canonical is passed explicitly to SEOHead for blog posts
 
   // JSON-LD BlogPosting schema
   const blogSchema = {
