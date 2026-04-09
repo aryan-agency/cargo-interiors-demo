@@ -90,4 +90,28 @@
     <changefreq>monthly</changefreq>
     <priority>0.7</priority>
   </url>
+  <url>
+    <loc>https://cargo-interiors-demo.lovable.app/interior-designer-gurgaon</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://cargo-interiors-demo.lovable.app/office-interior-designer-gurgaon</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://cargo-interiors-demo.lovable.app/showroom-interior-designer-gurgaon</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
+  <url>
+    <loc>https://cargo-interiors-demo.lovable.app/home-interior-designer-gurgaon</loc>
+    <lastmod>2026-04-09</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.95</priority>
+  </url>
 </urlset>
