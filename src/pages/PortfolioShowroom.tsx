@@ -22,6 +22,15 @@ export default function PortfolioShowroom() {
             turn walk-ins into paying clients — using smart layouts, premium displays, and brand-aligned aesthetics.
           </p>
 
+          <div className="mt-12 flex justify-center">
+            <iframe
+              src="https://gamma.app/embed/031vmsjx0rkdc5l"
+              style={{ width: "700px", maxWidth: "100%", height: "450px" }}
+              allow="fullscreen"
+              title="Designs That Drive Sales"
+            />
+          </div>
+
           <div className="mt-12 grid sm:grid-cols-2 gap-6">
             {["Product Display Zones", "Brand Experience Areas", "Customer Flow Optimization", "Lighting & Visual Merchandising"].map((item) => (
               <div key={item} className="border border-border rounded-xl p-6">

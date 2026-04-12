@@ -22,6 +22,15 @@ export default function PortfolioOffice() {
             MNCs, and co-working hubs — all built around efficiency, ergonomics, and smart budgeting.
           </p>
 
+          <div className="mt-12 flex justify-center">
+            <iframe
+              src="https://gamma.app/embed/7ft114bro9nz46n"
+              style={{ width: "700px", maxWidth: "100%", height: "450px" }}
+              allow="fullscreen"
+              title="Designing Workspaces That Define Success"
+            />
+          </div>
+
           <div className="mt-12 grid sm:grid-cols-2 gap-6">
             {["Corporate Office Design", "Startup & Co-Working Spaces", "Conference & Meeting Rooms", "Reception & Branding Zones"].map((item) => (
               <div key={item} className="border border-border rounded-xl p-6">

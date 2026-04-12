@@ -23,6 +23,15 @@ export default function PortfolioHome() {
             design and flawless execution.
           </p>
 
+          <div className="mt-12 flex justify-center">
+            <iframe
+              src="https://gamma.app/embed/yaxehnpq4u0zrwu"
+              style={{ width: "700px", maxWidth: "100%", height: "450px" }}
+              allow="fullscreen"
+              title="Turning Houses Into Refined Living Spaces"
+            />
+          </div>
+
           <div className="mt-12 grid sm:grid-cols-2 gap-6">
             {["Modular Kitchen Design", "Living Room Makeover", "Master Bedroom Design", "Bathroom & Wardrobe Solutions"].map((item) => (
               <div key={item} className="border border-border rounded-xl p-6">
