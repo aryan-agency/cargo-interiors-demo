@@ -17,6 +17,8 @@ import InteriorDesignerGurgaon from "./pages/InteriorDesignerGurgaon.tsx";
 import OfficeInteriorDesigner from "./pages/OfficeInteriorDesigner.tsx";
 import ShowroomInteriorDesigner from "./pages/ShowroomInteriorDesigner.tsx";
 import HomeInteriorDesigner from "./pages/HomeInteriorDesigner.tsx";
+import BestInteriorDesignerGurugram from "./pages/BestInteriorDesignerGurugram.tsx";
+import BestInteriorDesignerNearMe from "./pages/BestInteriorDesignerNearMe.tsx";
 import NotFound from "./pages/NotFound.tsx";
 import Portfolio from "./pages/Portfolio.tsx";
 import PortfolioHome from "./pages/PortfolioHome.tsx";
