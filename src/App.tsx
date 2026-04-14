@@ -51,6 +51,8 @@ const App = () => (
             <Route path="/office-interior-designer-gurgaon" element={<OfficeInteriorDesigner />} />
             <Route path="/showroom-interior-designer-gurgaon" element={<ShowroomInteriorDesigner />} />
             <Route path="/home-interior-designer-gurgaon" element={<HomeInteriorDesigner />} />
+            <Route path="/best-interior-designer-in-gurugram" element={<BestInteriorDesignerGurugram />} />
+            <Route path="/best-interior-designer-near-me-gurugram" element={<BestInteriorDesignerNearMe />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
