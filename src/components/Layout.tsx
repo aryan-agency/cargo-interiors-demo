@@ -131,6 +131,27 @@ export default function Layout({ children }: { children: React.ReactNode }) {
               </div>
             </div>
           </div>
+          {/* Our Location */}
+          <div className="mb-12">
+            <h4 className="font-display font-bold mb-2 text-sm text-center">Our Location</h4>
+            <p className="text-muted-foreground text-xs font-body text-center mb-6">
+              Serving clients across Gurgaon (Gurugram) with interior design and construction services.
+            </p>
+            <div className="rounded-xl overflow-hidden border border-border shadow-[0_8px_30px_rgba(0,0,0,0.4)]">
+              <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3510.16302933138!2d77.04310740000001!3d28.384143500000004!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x390d2316fcc27161%3A0xd50e654a66a3e1fb!2sCargo%20interior!5e0!3m2!1sen!2sin!4v1776475556014!5m2!1sen!2sin"
+                width="100%"
+                height="250"
+                style={{ border: 0, filter: "grayscale(0.4) contrast(1.1)" }}
+                allowFullScreen
+                loading="lazy"
+                referrerPolicy="no-referrer-when-downgrade"
+                title="Cargo Interior Location – Badshahpur, Gurugram"
+                className="block w-full"
+              />
+            </div>
+          </div>
+
           {/* Connect With Us */}
           <div className="mb-12">
             <h4 className="font-display font-bold mb-6 text-sm text-center">Connect With Us</h4>
