@@ -28,6 +28,11 @@ import Portfolio from "./pages/Portfolio.tsx";
 import PortfolioHome from "./pages/PortfolioHome.tsx";
 import PortfolioOffice from "./pages/PortfolioOffice.tsx";
 import PortfolioShowroom from "./pages/PortfolioShowroom.tsx";
+import InteriorDesignerDLFPhase1 from "./pages/InteriorDesignerDLFPhase1.tsx";
+import InteriorDesignerSector56 from "./pages/InteriorDesignerSector56.tsx";
+import InteriorDesignerGolfCourseRoad from "./pages/InteriorDesignerGolfCourseRoad.tsx";
+import InteriorDesignerSohnaRoad from "./pages/InteriorDesignerSohnaRoad.tsx";
+import InteriorDesignerSector67 from "./pages/InteriorDesignerSector67.tsx";
 
 const queryClient = new QueryClient();
 
@@ -61,6 +66,11 @@ const App = () => (
             <Route path="/home-builders-and-constructions-in-gurugram" element={<HomeBuildersGurugram />} />
             <Route path="/construction-cost-in-gurugram" element={<ConstructionCostGurugram />} />
             <Route path="/interior-design-cost-calculator-gurugram" element={<CostCalculator />} />
+            <Route path="/interior-designer-in-dlf-phase-1-gurgaon" element={<InteriorDesignerDLFPhase1 />} />
+            <Route path="/interior-designer-in-sector-56-gurgaon" element={<InteriorDesignerSector56 />} />
+            <Route path="/interior-designer-in-golf-course-road-gurgaon" element={<InteriorDesignerGolfCourseRoad />} />
+            <Route path="/interior-designer-in-sohna-road-gurgaon" element={<InteriorDesignerSohnaRoad />} />
+            <Route path="/interior-designer-in-sector-67-gurgaon" element={<InteriorDesignerSector67 />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
