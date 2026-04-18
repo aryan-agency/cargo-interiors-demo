@@ -33,6 +33,8 @@ import InteriorDesignerSector56 from "./pages/InteriorDesignerSector56.tsx";
 import InteriorDesignerGolfCourseRoad from "./pages/InteriorDesignerGolfCourseRoad.tsx";
 import InteriorDesignerSohnaRoad from "./pages/InteriorDesignerSohnaRoad.tsx";
 import InteriorDesignerSector67 from "./pages/InteriorDesignerSector67.tsx";
+import ApartmentRenovationDLFPhase1 from "./pages/ApartmentRenovationDLFPhase1.tsx";
+import OfficeInteriorDLFPhase1EBlock from "./pages/OfficeInteriorDLFPhase1EBlock.tsx";
 
 const queryClient = new QueryClient();
 
@@ -71,6 +73,8 @@ const App = () => (
             <Route path="/interior-designer-in-golf-course-road-gurgaon" element={<InteriorDesignerGolfCourseRoad />} />
             <Route path="/interior-designer-in-sohna-road-gurgaon" element={<InteriorDesignerSohnaRoad />} />
             <Route path="/interior-designer-in-sector-67-gurgaon" element={<InteriorDesignerSector67 />} />
+            <Route path="/apartment-renovation-in-dlf-phase-1-gurgaon" element={<ApartmentRenovationDLFPhase1 />} />
+            <Route path="/office-interior-design-e-block-dlf-phase-1-gurgaon" element={<OfficeInteriorDLFPhase1EBlock />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
