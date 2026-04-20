@@ -143,6 +143,8 @@ export const blogPosts: BlogPost[] = [
       { type: "heading", text: "Conclusion" },
       { type: "paragraph", text: "Office interior design Gurgaon me ek strategic investment hai jo aapke business outcomes directly impact karti hai. Sahi layout, smart design choices aur experienced designers ke saath aap ek workspace create kar sakte ho jo productivity boost kare, talent attract kare aur brand value build kare." },
       { type: "paragraph", text: "Cargo Interiors aapko end-to-end office interior design solutions deta hai — 3D visualization se lekar final execution tak. Chahe startup workspace ho ya corporate headquarters, hum aapke vision ko reality me convert karte hain. Aaj hi free consultation book karo." },
+      { type: "paragraph", text: "Before finalising scope, most clients prefer a quick ballpark figure. Try our interior cost calculator to estimate your per-sq-ft budget in under a minute — useful for comparing quotes from any Gurgaon vendor." },
+      { type: "paragraph", text: "If pricing is your next big question, our detailed office interior design cost in Gurgaon guide breaks down basic, mid-range and premium tiers with real project examples." },
     ],
     faq: [
       { question: "Gurgaon me office interior design ka best layout kaunsa hai?", answer: "Hybrid layout — jo open workstations ko private focus pods aur collaboration zones ke saath combine karta hai — Gurgaon ke modern offices me sabse effective hai." },
