@@ -29,12 +29,20 @@ export interface BlogPost {
 
 export type BlogCategory = "Office Interior" | "Showroom Interior" | "Commercial Design" | "Interior Design Tips";
 
+export interface BlogTableRow {
+  cells: string[];
+}
+
 export interface BlogSection {
-  type: "paragraph" | "heading" | "subheading" | "list" | "image";
+  type: "paragraph" | "heading" | "subheading" | "list" | "image" | "table";
   text?: string;
   items?: string[];
   src?: string;
   alt?: string;
+  /** Table headers — used when type === "table" */
+  headers?: string[];
+  /** Table rows — used when type === "table" */
+  rows?: BlogTableRow[];
 }
 
 export const BLOG_CATEGORIES: BlogCategory[] = [
