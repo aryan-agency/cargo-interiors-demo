@@ -128,24 +128,49 @@ export default function BlogPost() {
       {/* Content */}
       <Section className="px-6 pb-12">
         <article className="max-w-3xl mx-auto prose-custom">
-          {post.content.map((block, i) => {
-            switch (block.type) {
-              case "paragraph": {
-                const shouldLink = post.internalLink && i === post.internalLink.paragraphIndex && block.text;
-                if (shouldLink && block.text!.includes(post.internalLink!.anchorText)) {
-                  const parts = block.text!.split(post.internalLink!.anchorText);
-                  return (
-                    <p key={i} className="text-muted-foreground font-body text-base leading-relaxed mb-6">
-                      {parts[0]}
-                      <Link to={post.internalLink!.url} className="text-primary hover:underline">
-                        {post.internalLink!.anchorText}
-                      </Link>
-                      {parts.slice(1).join(post.internalLink!.anchorText)}
-                    </p>
-                  );
+          {(() => {
+            // Track which extra internalLinks have been consumed (one per paragraph max for the whole post)
+            const consumedExtra = new Set<number>();
+            return post.content.map((block, i) => {
+              switch (block.type) {
+                case "paragraph": {
+                  const text = block.text || "";
+                  // 1. Legacy single internalLink (paragraph-index based)
+                  if (
+                    post.internalLink &&
+                    i === post.internalLink.paragraphIndex &&
+                    text.includes(post.internalLink.anchorText)
+                  ) {
+                    const il = post.internalLink;
+                    const parts = text.split(il.anchorText);
+                    return (
+                      <p key={i} className="text-muted-foreground font-body text-base leading-relaxed mb-6">
+                        {parts[0]}
+                        <Link to={il.url} className="text-primary hover:underline">{il.anchorText}</Link>
+                        {parts.slice(1).join(il.anchorText)}
+                      </p>
+                    );
+                  }
+                  // 2. Extra internalLinks: find first unconsumed link whose anchor appears in this paragraph
+                  if (post.internalLinks && post.internalLinks.length) {
+                    const matchIdx = post.internalLinks.findIndex(
+                      (l, idx) => !consumedExtra.has(idx) && text.includes(l.anchorText)
+                    );
+                    if (matchIdx !== -1) {
+                      consumedExtra.add(matchIdx);
+                      const link = post.internalLinks[matchIdx];
+                      const parts = text.split(link.anchorText);
+                      return (
+                        <p key={i} className="text-muted-foreground font-body text-base leading-relaxed mb-6">
+                          {parts[0]}
+                          <Link to={link.url} className="text-primary hover:underline">{link.anchorText}</Link>
+                          {parts.slice(1).join(link.anchorText)}
+                        </p>
+                      );
+                    }
+                  }
+                  return <p key={i} className="text-muted-foreground font-body text-base leading-relaxed mb-6">{text}</p>;
                 }
-                return <p key={i} className="text-muted-foreground font-body text-base leading-relaxed mb-6">{block.text}</p>;
-              }
               case "heading":
                 return <h2 key={i} className="font-display text-2xl font-bold mt-10 mb-4 text-foreground">{block.text}</h2>;
               case "subheading":

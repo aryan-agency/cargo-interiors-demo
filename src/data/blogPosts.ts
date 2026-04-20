@@ -18,6 +18,12 @@ export interface BlogPost {
   content: BlogSection[];
   faq?: { question: string; answer: string }[];
   internalLink?: BlogInternalLink;
+  /**
+   * Additional contextual in-content links. Each link is injected into the
+   * first paragraph whose text contains its anchorText. Used for SEO internal
+   * linking to service pages, calculator and related blogs.
+   */
+  internalLinks?: Omit<BlogInternalLink, "paragraphIndex">[];
   featured?: boolean;
 }
 
