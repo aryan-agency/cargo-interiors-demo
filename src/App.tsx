@@ -37,6 +37,8 @@ import ApartmentRenovationDLFPhase1 from "./pages/ApartmentRenovationDLFPhase1.t
 import OfficeInteriorDLFPhase1EBlock from "./pages/OfficeInteriorDLFPhase1EBlock.tsx";
 import HomeInteriorPortfolioGurgaon from "./pages/HomeInteriorPortfolioGurgaon.tsx";
 import HomeProjectDetail from "./pages/HomeProjectDetail.tsx";
+import SeoMiniPageRoute from "./pages/SeoMiniPageRoute.tsx";
+import { seoMiniPages } from "./data/seoMiniPages";
 
 const queryClient = new QueryClient();
 
@@ -79,6 +81,9 @@ const App = () => (
             <Route path="/office-interior-design-e-block-dlf-phase-1-gurgaon" element={<OfficeInteriorDLFPhase1EBlock />} />
             <Route path="/home-interior-design-portfolio-gurgaon" element={<HomeInteriorPortfolioGurgaon />} />
             <Route path="/projects/:slug" element={<HomeProjectDetail />} />
+            {Object.keys(seoMiniPages).map((slug) => (
+              <Route key={slug} path={`/${slug}`} element={<SeoMiniPageRoute />} />
+            ))}
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
