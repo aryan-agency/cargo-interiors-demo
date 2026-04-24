@@ -1,5 +1,5 @@
 import { QueryClient, QueryClientProvider } from "@tanstack/react-query";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import { Toaster as Sonner } from "@/components/ui/sonner";
 import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
@@ -84,6 +84,16 @@ const App = () => (
             {Object.keys(seoMiniPages).map((slug) => (
               <Route key={slug} path={`/${slug}`} element={<SeoMiniPageRoute />} />
             ))}
+            {/* Strict anchor-mapping URL aliases → canonical SEO pages */}
+            <Route path="/2bhk-flat-interior-design-in-gurgaon" element={<Navigate to="/2bhk-flat-interior-designer-in-gurgaon" replace />} />
+            <Route path="/villa-interior-design-in-gurgaon" element={<Navigate to="/villa-interior-designer-in-gurgaon" replace />} />
+            <Route path="/modular-kitchen-design-in-gurgaon" element={<Navigate to="/modular-kitchen-designer-in-gurgaon" replace />} />
+            <Route path="/bathroom-and-wardrobe-design-solutions-in-gurgaon" element={<Navigate to="/bathroom-and-wardrobe-designer-in-gurgaon" replace />} />
+            <Route path="/interior-designer-with-100-projects-in-gurgaon" element={<Navigate to="/interior-designer-projects-in-gurgaon" replace />} />
+            <Route path="/interior-design-portfolio-gurgaon" element={<Navigate to="/our-portfolio" replace />} />
+            <Route path="/office-interior-designer-in-gurgaon" element={<OfficeInteriorDesigner />} />
+            <Route path="/interior-designer-in-gurgaon" element={<InteriorDesignerGurgaon />} />
+            <Route path="/interior-cost-calculator" element={<Navigate to="/interior-design-cost-calculator-gurugram" replace />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
             {/* ADD ALL CUSTOM ROUTES ABOVE THE CATCH-ALL "*" ROUTE */}
