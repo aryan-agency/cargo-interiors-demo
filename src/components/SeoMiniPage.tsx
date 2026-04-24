@@ -91,7 +91,7 @@ export default function SeoMiniPage({ data }: { data: SeoMiniPageData }) {
                 <RichParagraph
                   key={idx}
                   html={p}
-                  className="text-muted-foreground leading-relaxed text-base md:text-lg [&_a]:text-primary [&_a]:underline-offset-4 hover:[&_a]:underline"
+                  className="text-muted-foreground leading-relaxed text-base md:text-lg [&_a]:text-primary [&_a]:font-medium [&_a]:underline [&_a]:decoration-primary/50 [&_a]:underline-offset-4 [&_a]:transition-colors hover:[&_a]:text-primary/80 hover:[&_a]:decoration-primary"
                 />
               ))}
             </article>
