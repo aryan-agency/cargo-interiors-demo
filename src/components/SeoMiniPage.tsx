@@ -106,12 +106,24 @@ export default function SeoMiniPage({ data }: { data: SeoMiniPageData }) {
             Key Benefits
           </h2>
           <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-4">
-            {data.benefits.map((b) => (
-              <div key={b.title} className="rounded-xl border border-border bg-card/50 p-5">
-                <h3 className="font-display text-lg text-foreground mb-2">{b.title}</h3>
-                <p className="text-sm text-muted-foreground leading-relaxed">{b.body}</p>
-              </div>
-            ))}
+            {data.benefits.map((b, i) => {
+              const target = data.relatedLinks[i % Math.max(data.relatedLinks.length, 1)];
+              const Wrapper: any = target ? Link : "div";
+              const wrapperProps = target
+                ? { to: target.to, className: "group block rounded-xl border border-border bg-card/50 p-5 hover:border-primary/60 hover:bg-card/70 hover:-translate-y-0.5 transition-all cursor-pointer" }
+                : { className: "rounded-xl border border-border bg-card/50 p-5" };
+              return (
+                <Wrapper key={b.title} {...wrapperProps}>
+                  <h3 className="font-display text-lg text-foreground mb-2 group-hover:text-primary transition-colors">{b.title}</h3>
+                  <p className="text-sm text-muted-foreground leading-relaxed">{b.body}</p>
+                  {target && (
+                    <span className="mt-3 inline-flex items-center gap-1 text-sm font-medium text-primary underline decoration-primary/50 underline-offset-4 group-hover:decoration-primary">
+                      Read More <ArrowRight className="w-3.5 h-3.5 transition-transform group-hover:translate-x-1" />
+                    </span>
+                  )}
+                </Wrapper>
+              );
+            })}
           </div>
         </div>
       </Section>
