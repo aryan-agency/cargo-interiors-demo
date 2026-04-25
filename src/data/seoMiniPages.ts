@@ -99,6 +99,15 @@ const relatedOffice = [
   { label: "Office Interior Cost Guide", to: "/blog/office-interior-design-cost-gurgaon", description: "Budget benchmarks and cost-per-seat data." },
 ];
 
+const relatedShowroom = [
+  { label: "Showroom Interior Designer in Gurgaon", to: "/showroom-interior-designer-gurgaon", description: "Our flagship showroom design service." },
+  { label: "Product Display Zone Design", to: "/product-display-zone-interior-design-in-gurgaon", description: "Display layouts engineered for product hierarchy." },
+  { label: "Brand Experience Area Design", to: "/brand-experience-area-interior-design-in-gurgaon", description: "Immersive zones that anchor your brand story." },
+  { label: "Customer Flow Optimization", to: "/customer-flow-optimization-in-showroom-design-gurgaon", description: "Walk paths designed to maximise dwell time." },
+  { label: "Lighting & Visual Merchandising", to: "/lighting-and-visual-merchandising-in-showroom-interior-design-gurgaon", description: "Lighting schemes that lift product appeal." },
+  { label: "Showroom Cost Guide", to: "/blog/showroom-interior-design-cost-gurgaon", description: "Budget benchmarks for retail interiors." },
+];
+
 /* ---------------------------------------------------------------------------
  * Pages
  * ------------------------------------------------------------------------- */
