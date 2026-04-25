@@ -959,4 +959,162 @@ export const seoMiniPages: Record<string, SeoMiniPageData> = {
     ctaHeading: "Design a Reception That Wows",
     relatedLinks: relatedOffice,
   },
+
+  /* ============================ SHOWROOM CLUSTER ========================= */
+
+  "product-display-zone-interior-design-in-gurgaon": {
+    slug: "product-display-zone-interior-design-in-gurgaon",
+    metaTitle: "Product Display Zone Interior Design in Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Product display zone interior design in Gurgaon — fixtures, plinths and modular systems engineered to highlight hero SKUs and lift conversions.",
+    h1: "Product Display Zone Interior Design in Gurgaon",
+    intro:
+      `A well-planned product display zone is the silent salesperson of any retail floor. We design display architecture in Gurgaon that organises your range by hierarchy, story and price-point — so customers instantly understand what to look at first. Explore our work via the ${L.showroomDesigner} page.`,
+    sections: [
+      {
+        heading: "What a Display Zone Should Do",
+        paragraphs: [
+          `Display zones aren't shelves — they're decision tools. Our layouts use plinths, modular gondolas, wall systems and feature niches to pull the eye toward hero SKUs while keeping accessories within easy reach. Each zone is sized to your average basket and stocking depth, not a generic template.`,
+        ],
+      },
+      {
+        heading: "How It Lifts Conversions",
+        paragraphs: [
+          `Clear product hierarchy reduces decision fatigue and shortens the path from browse to billing. Clients consistently report higher attach rates and longer dwell times after a display refit — patterns mirrored in our broader ${L.interiorPortfolio}.`,
+        ],
+      },
+      {
+        heading: "Why Cargo Interiors",
+        paragraphs: [
+          `With a decade of retail fit-outs across Gurgaon and Gurugram, we balance brand identity with operational realities — restocking access, anti-theft sightlines and fixture durability for high-footfall floors.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Hero SKU Visibility", body: "Feature plinths and lighting that direct attention to your top sellers." },
+      { title: "Modular Fixtures", body: "Reconfigurable systems that adapt to seasonal collections." },
+      { title: "Restock-Friendly", body: "Back-of-house access designed into every wall system." },
+      { title: "Durable Finishes", body: "Materials specified for daily handling and wear." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Design Your Display Zone",
+    relatedLinks: relatedShowroom,
+  },
+
+  "brand-experience-area-interior-design-in-gurgaon": {
+    slug: "brand-experience-area-interior-design-in-gurgaon",
+    metaTitle: "Brand Experience Area Interior Design in Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Brand experience area interior design in Gurgaon — immersive zones with storytelling walls, demo bays and material palettes that anchor your brand.",
+    h1: "Brand Experience Area Interior Design in Gurgaon",
+    intro:
+      `A brand experience area turns a transaction into a memory. We design dedicated zones in Gurgaon showrooms that let visitors touch, test and connect with your brand story — built around demo bays, narrative walls and signature materials. See related work in our ${L.showroomDesigner} portfolio.`,
+    sections: [
+      {
+        heading: "The Concept",
+        paragraphs: [
+          `These are the zones that don't sell directly — they sell the brand. Think hero installations, immersive lighting, brand-film walls and material libraries that let customers spend time with your product without sales pressure.`,
+        ],
+      },
+      {
+        heading: "Conversion Impact",
+        paragraphs: [
+          `Brand zones build emotional preference, which translates into higher average ticket sizes and stronger word-of-mouth referrals. A reference set of similar projects sits in our ${L.interiorPortfolio}.`,
+        ],
+      },
+      {
+        heading: "Execution Strength",
+        paragraphs: [
+          `From concept boards to commissioning, our senior designers in Gurgaon manage joinery, AV integration and lighting calibration in-house — no hand-offs, no surprises.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Storytelling Walls", body: "Narrative graphics and material samples that anchor your brand." },
+      { title: "Demo Bays", body: "Dedicated try-and-test zones that build product confidence." },
+      { title: "AV Integration", body: "Concealed screens, sound and ambient lighting woven into joinery." },
+      { title: "Signature Materials", body: "Bespoke palettes that reinforce brand recall." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Build Your Brand Experience Zone",
+    relatedLinks: relatedShowroom,
+  },
+
+  "customer-flow-optimization-in-showroom-design-gurgaon": {
+    slug: "customer-flow-optimization-in-showroom-design-gurgaon",
+    metaTitle: "Customer Flow Optimization in Showroom Design Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Customer flow optimization for showrooms in Gurgaon — entry, browse, demo and billing journeys designed to maximise dwell time and conversions.",
+    h1: "Customer Flow Optimization in Showroom Design Gurgaon",
+    intro:
+      `How customers move through your showroom decides what they see, touch and buy. We plan walk-paths, sightlines and decompression zones in Gurgaon retail spaces to keep visitors engaged from entry to billing. View related projects in our ${L.showroomDesigner} portfolio.`,
+    sections: [
+      {
+        heading: "Mapping the Journey",
+        paragraphs: [
+          `Every floor plan starts with a journey map — entry decompression, hero display, category browse, demo, consultation and billing. We design each transition so customers naturally cover the full assortment instead of dropping off mid-floor.`,
+        ],
+      },
+      {
+        heading: "Why It Matters",
+        paragraphs: [
+          `Optimised flow lifts dwell time, attach rates and per-visit revenue. The same principles power layouts across our wider ${L.interiorPortfolio} of retail and commercial work.`,
+        ],
+      },
+      {
+        heading: "Our Track Record",
+        paragraphs: [
+          `Our retail layouts in Gurgaon are tested against real footfall data — peak-hour congestion, queue management at billing and accessibility for senior visitors are all factored in.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Higher Dwell Time", body: "Layouts that encourage exploration of every category." },
+      { title: "Reduced Drop-Off", body: "Sightlines that pull visitors deeper into the floor." },
+      { title: "Smooth Billing", body: "Queue zones planned to absorb peak-hour rush." },
+      { title: "Accessibility", body: "Aisle widths and ramps designed for every visitor." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Optimise Your Showroom Flow",
+    relatedLinks: relatedShowroom,
+  },
+
+  "lighting-and-visual-merchandising-in-showroom-interior-design-gurgaon": {
+    slug: "lighting-and-visual-merchandising-in-showroom-interior-design-gurgaon",
+    metaTitle: "Lighting & Visual Merchandising in Showroom Interior Design Gurgaon",
+    metaDescription:
+      "Showroom lighting and visual merchandising design in Gurgaon — accent, ambient and task layers tuned to lift product appeal and drive sales.",
+    h1: "Lighting & Visual Merchandising in Showroom Interior Design Gurgaon",
+    intro:
+      `Lighting is the most undervalued sales tool in retail. We design layered lighting schemes and visual merchandising systems in Gurgaon that make products look their best and stories read clearly. Browse related work via our ${L.showroomDesigner} page.`,
+    sections: [
+      {
+        heading: "Layered Lighting Strategy",
+        paragraphs: [
+          `We work with three layers — ambient, accent and task — calibrated by colour temperature and CRI to suit your product category. Apparel needs warmer, high-CRI light; jewellery and electronics demand sharper, cooler accents.`,
+        ],
+      },
+      {
+        heading: "Visual Merchandising That Converts",
+        paragraphs: [
+          `VM systems — props, mannequins, signage and seasonal swap-ins — are designed alongside fixtures so refreshes are quick and on-brand. Reference projects sit within our ${L.interiorPortfolio}.`,
+        ],
+      },
+      {
+        heading: "Built for Real Showrooms",
+        paragraphs: [
+          `Our lighting designs in Gurugram account for fixture glare, energy consumption and easy lamp replacement — practical considerations that keep your showroom looking sharp years after handover.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Higher Product Appeal", body: "Accent lighting tuned to your category and finishes." },
+      { title: "Energy-Efficient", body: "LED systems sized for low running cost." },
+      { title: "Easy Refresh", body: "VM fixtures designed for quick seasonal swaps." },
+      { title: "Glare Control", body: "Beam angles and shielding planned to protect customer comfort." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Light Your Showroom to Sell",
+    relatedLinks: relatedShowroom,
+  },
 };
