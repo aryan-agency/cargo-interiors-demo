@@ -977,39 +977,57 @@ export const seoMiniPages: Record<string, SeoMiniPageData> = {
       "Product display zone interior design in Gurgaon — fixtures, plinths and modular systems engineered to highlight hero SKUs and lift conversions.",
     h1: "Product Display Zone Interior Design in Gurgaon",
     intro:
-      `A well-planned product display zone is the silent salesperson of any retail floor. We design display architecture in Gurgaon that organises your range by hierarchy, story and price-point — so customers instantly understand what to look at first. Explore our work via the ${L.showroomDesigner} page.`,
+      `A well-planned product display zone is the silent salesperson of your retail floor. Most brands lose sales not because the product is wrong, but because the display fails to guide the customer's eye. As a specialist team behind ${L.showroomMain}, we plan display architecture in Gurgaon that organises every SKU by hierarchy, story and price-point — so customers instantly understand what to look at first, what to touch next, and what to take to billing.`,
     sections: [
       {
-        heading: "What a Display Zone Should Do",
+        heading: "What a Display Zone Should Actually Do",
         paragraphs: [
-          `Display zones aren't shelves — they're decision tools. Our layouts use plinths, modular gondolas, wall systems and feature niches to pull the eye toward hero SKUs while keeping accessories within easy reach. Each zone is sized to your average basket and stocking depth, not a generic template.`,
+          `Display zones aren't shelves — they're decision tools. A well-engineered zone uses plinths, modular gondolas, wall systems and feature niches to pull the eye toward hero SKUs while keeping accessories within easy reach. Our ${L.experiencedTeam} sizes each zone to your average basket and stocking depth, not a generic template borrowed from another brand.`,
+          `For multi-category retail — apparel, electronics, lifestyle, jewellery — we sequence display heights to create a clear "browse rhythm". Eye-level holds the bestsellers, mid-level holds the margin drivers, and lower shelves carry bulk SKUs. This same hierarchy logic also informs our ${L.brandExperience}, where storytelling and product display work together.`,
         ],
       },
       {
-        heading: "How It Lifts Conversions",
+        heading: "How Display Architecture Lifts Conversions",
         paragraphs: [
-          `Clear product hierarchy reduces decision fatigue and shortens the path from browse to billing. Clients consistently report higher attach rates and longer dwell times after a display refit — patterns mirrored in our broader ${L.interiorPortfolio}.`,
+          `Clear product hierarchy reduces decision fatigue and shortens the path from browse to billing. Pair that with deliberate ${L.customerFlow} and visitors naturally cover your full assortment instead of dropping off at the entrance. Clients regularly report 15–25% higher attach rates within a quarter of a fixture refit — patterns visible across the ${L.showroomPortfolio} we maintain.`,
+          `Display zones also work harder when paired with intelligent ${L.vmLighting}. Accent beams on hero plinths can lift perceived product value by an order of magnitude, which is why we never quote a fixture package without an accompanying lighting layer.`,
+        ],
+      },
+      {
+        heading: "Practical Implementation Ideas",
+        paragraphs: [
+          `We typically combine a few proven systems: free-standing plinths for hero SKUs, perimeter wall systems for category depth, gondolas for bulk merchandise, and a dedicated demo bay for try-and-test categories. The materials we specify — back-painted glass, brushed metal, matte laminates and PU-finished MDF — are chosen for daily handling, not just photography.`,
+          `For brands also expanding into commercial floors, the discipline carries over to ${L.officeDesignerMain} and ${L.corporate}, where reception and product walls follow the same display logic. The cross-pollination is one reason a ${L.trustedDesigner} like Cargo Interiors can deliver retail and corporate fit-outs to the same standard.`,
+        ],
+      },
+      {
+        heading: "Budget, Timeline & Cost Planning",
+        paragraphs: [
+          `Display zone fit-outs in Gurgaon usually range from ₹1,800 to ₹3,500 per sq.ft depending on fixture density, finishes and lighting layer. For a realistic showroom setup cost benchmark, study the ${L.officeCostBlog} which mirrors retail cost structures closely; for residential cost context that helps frame budget conversations, see the ${L.costBlog}. When you're ready to start planning your budget, the ${L.costCalculator} gives you a quick range in under two minutes.`,
         ],
       },
       {
         heading: "Why Cargo Interiors",
         paragraphs: [
-          `With a decade of retail fit-outs across Gurgaon and Gurugram, we balance brand identity with operational realities — restocking access, anti-theft sightlines and fixture durability for high-footfall floors.`,
+          `With a decade of retail fit-outs across Gurgaon and Gurugram, our team is an ${L.projects} firm — meaning we've seen what fixtures fail at high footfall, which finishes age badly under spotlights, and how to design back-of-house access without breaking the customer-facing aesthetic. For homeowners exploring our broader work, our ${L.kitchen} and ${L.living} pages show the same detail discipline applied to residential interiors.`,
         ],
       },
     ],
     benefits: [
-      { title: "Hero SKU Visibility", body: "Feature plinths and lighting that direct attention to your top sellers." },
-      { title: "Modular Fixtures", body: "Reconfigurable systems that adapt to seasonal collections." },
-      { title: "Restock-Friendly", body: "Back-of-house access designed into every wall system." },
-      { title: "Durable Finishes", body: "Materials specified for daily handling and wear." },
+      { title: "Hero SKU Visibility", body: "Feature plinths and accent lighting that direct attention to your top sellers." },
+      { title: "Modular Fixtures", body: "Reconfigurable systems that adapt to seasonal collections and new launches." },
+      { title: "Restock-Friendly", body: "Back-of-house access designed into every wall system from day one." },
+      { title: "Durable Finishes", body: "Materials specified for daily handling, lighting heat and customer wear." },
+      { title: "Anti-Theft Sightlines", body: "Layouts that keep high-value SKUs visible from billing without feeling clinical." },
+      { title: "Photography-Ready", body: "Fixture finishes that hold up on social-media product shots." },
     ],
     process: [
-      { title: "Brief & Brand Review", body: "Brand book, SKU mix and footfall data captured upfront." },
-      { title: "Concept & Layout", body: "Floor plan, fixture concept and lighting direction." },
-      { title: "BOQ Lock", body: "Line-item costing with material brands named." },
-      { title: "Joinery & Build", body: "Fixtures, walls and ceilings built in sequence." },
-      { title: "Commissioning", body: "Lighting calibration, VM install and snag-free handover." },
+      { title: "Brief & SKU Audit", body: "Brand book, SKU mix and footfall data captured upfront." },
+      { title: "Zone Concept", body: "Plinth, wall and gondola direction with reference imagery." },
+      { title: "Joinery Detailing", body: "Sections, hardware schedule and lighting integration drawings." },
+      { title: "BOQ Lock", body: "Line-item costing with material brands named in writing." },
+      { title: "Workshop Build", body: "Fixtures fabricated off-site for tighter quality control." },
+      { title: "Install & Commissioning", body: "On-site assembly, lighting calibration and snag-free handover." },
     ],
     trustPoints: baseTrust,
     ctaHeading: "Design Your Display Zone",
@@ -1023,39 +1041,57 @@ export const seoMiniPages: Record<string, SeoMiniPageData> = {
       "Brand experience area interior design in Gurgaon — immersive zones with storytelling walls, demo bays and material palettes that anchor your brand.",
     h1: "Brand Experience Area Interior Design in Gurgaon",
     intro:
-      `A brand experience area turns a transaction into a memory. We design dedicated zones in Gurgaon showrooms that let visitors touch, test and connect with your brand story — built around demo bays, narrative walls and signature materials. See related work in our ${L.showroomDesigner} portfolio.`,
+      `A brand experience area turns a transaction into a memory. In a market where products are easily compared online, the showroom's job has shifted from "stocking SKUs" to "building preference". As the team behind ${L.showroomMain}, we design dedicated zones in Gurgaon that let visitors touch, test and connect with your brand story — built around demo bays, narrative walls and signature materials that no competitor can copy in a screenshot.`,
     sections: [
       {
-        heading: "The Concept",
+        heading: "The Concept Behind a Brand Zone",
         paragraphs: [
-          `These are the zones that don't sell directly — they sell the brand. Think hero installations, immersive lighting, brand-film walls and material libraries that let customers spend time with your product without sales pressure.`,
+          `These are the zones that don't sell directly — they sell the brand. Hero installations, immersive lighting, brand-film walls and material libraries let customers spend unhurried time with your product without sales pressure. Done right, the brand zone becomes the gravitational centre of the floor, anchoring the surrounding ${L.displayZone} into a single coherent story.`,
+          `Our approach starts with brand archaeology — we read your brand book, watch your campaigns, and translate your tone of voice into materials, light temperatures and spatial proportions. The result is a zone that feels unmistakably yours from the moment a customer steps into it.`,
         ],
       },
       {
-        heading: "Conversion Impact",
+        heading: "Conversion Impact of Experience Zones",
         paragraphs: [
-          `Brand zones build emotional preference, which translates into higher average ticket sizes and stronger word-of-mouth referrals. A reference set of similar projects sits in our ${L.interiorPortfolio}.`,
+          `Brand zones build emotional preference, which translates into higher average ticket sizes, stronger word-of-mouth and measurable lifts in repeat-visit rates. They also amplify the rest of your floor: a customer who has just spent eight minutes inside a beautifully built brand wall is far more receptive to a sales pitch at the adjacent display, especially when ${L.customerFlow} is planned to bring them there next.`,
+          `Reference projects across our ${L.showroomPortfolio} show how brand zones routinely outperform traditional shop-fronts on dwell time and per-visit revenue — even when their direct billing share is small.`,
+        ],
+      },
+      {
+        heading: "Practical Build Ideas",
+        paragraphs: [
+          `Common elements we deploy: a back-lit material library wall, a demo bay with concealed AV, a narrative timeline mural, a signature lounge moment, and a discreet consultation table for high-ticket conversations. We treat lighting as a design material in its own right — see our companion ${L.vmLighting} page for the deeper technical approach.`,
+          `Material choices matter as much as form. Brushed brass, fluted oak veneer, Italian marble inlays, micro-cement floors and acoustic fabric panels are recurring favourites — chosen because they age gracefully under spotlights and photograph beautifully on social media. The same material discipline carries into our ${L.officeDesignerMain} work, particularly across ${L.corporate} reception zones.`,
+        ],
+      },
+      {
+        heading: "Budget & Cost Planning",
+        paragraphs: [
+          `A dedicated brand zone within a showroom typically adds ₹6L–₹40L+ to the overall fit-out depending on size, AV depth and material selection. For showroom setup cost benchmarking that mirrors this kind of bespoke joinery work, the ${L.officeCostBlog} is the closest reference; for narrower budget framing, see the ${L.costBlog}. When you're scoping the investment, the ${L.costCalculator} helps you anchor a realistic range before our first call.`,
         ],
       },
       {
         heading: "Execution Strength",
         paragraphs: [
-          `From concept boards to commissioning, our senior designers in Gurgaon manage joinery, AV integration and lighting calibration in-house — no hand-offs, no surprises.`,
+          `From concept boards to commissioning, our senior designers manage joinery, AV integration and lighting calibration in-house — no hand-offs, no surprises. As an ${L.experiencedTeam} and ${L.projects} firm, we hold detailed photographic logs of every build, which means even five years later we can replicate, repair or refresh a zone without guesswork.`,
         ],
       },
     ],
     benefits: [
-      { title: "Storytelling Walls", body: "Narrative graphics and material samples that anchor your brand." },
+      { title: "Storytelling Walls", body: "Narrative graphics and material libraries that anchor your brand identity." },
       { title: "Demo Bays", body: "Dedicated try-and-test zones that build product confidence." },
       { title: "AV Integration", body: "Concealed screens, sound and ambient lighting woven into joinery." },
-      { title: "Signature Materials", body: "Bespoke palettes that reinforce brand recall." },
+      { title: "Signature Materials", body: "Bespoke palettes — brass, oak, marble — that reinforce brand recall." },
+      { title: "Acoustic Comfort", body: "Fabric panels and ceiling treatments for unhurried conversations." },
+      { title: "Photo-Ready Detail", body: "Surfaces and lighting tuned to look stunning on social media shots." },
     ],
     process: [
-      { title: "Brief & Brand Review", body: "Brand book, SKU mix and footfall data captured upfront." },
-      { title: "Concept & Layout", body: "Floor plan, fixture concept and lighting direction." },
-      { title: "BOQ Lock", body: "Line-item costing with material brands named." },
-      { title: "Joinery & Build", body: "Fixtures, walls and ceilings built in sequence." },
-      { title: "Commissioning", body: "Lighting calibration, VM install and snag-free handover." },
+      { title: "Brand Archaeology", body: "Deep dive into brand book, campaigns and tone of voice." },
+      { title: "Concept Direction", body: "Two material directions presented with mood imagery." },
+      { title: "Joinery & AV Detailing", body: "Sections, hardware, AV cabling and lighting integration." },
+      { title: "BOQ Lock", body: "Line-item costing with finishes and AV brands named." },
+      { title: "Build & Integration", body: "Joinery, AV and lighting installed in sequence." },
+      { title: "Commissioning", body: "Sound, light and content calibration before handover." },
     ],
     trustPoints: baseTrust,
     ctaHeading: "Build Your Brand Experience Zone",
@@ -1069,24 +1105,39 @@ export const seoMiniPages: Record<string, SeoMiniPageData> = {
       "Customer flow optimization for showrooms in Gurgaon — entry, browse, demo and billing journeys designed to maximise dwell time and conversions.",
     h1: "Customer Flow Optimization in Showroom Design Gurgaon",
     intro:
-      `How customers move through your showroom decides what they see, touch and buy. We plan walk-paths, sightlines and decompression zones in Gurgaon retail spaces to keep visitors engaged from entry to billing. View related projects in our ${L.showroomDesigner} portfolio.`,
+      `How customers move through your showroom decides what they see, touch and buy. A floor with strong product but a broken journey will always under-perform a floor with average product and a deliberately engineered path. As specialists in ${L.showroomMain}, we plan walk-paths, sightlines and decompression zones in Gurgaon retail spaces to keep visitors engaged from the moment they cross the threshold to the moment they tap their card at billing.`,
     sections: [
       {
-        heading: "Mapping the Journey",
+        heading: "Mapping the Customer Journey",
         paragraphs: [
-          `Every floor plan starts with a journey map — entry decompression, hero display, category browse, demo, consultation and billing. We design each transition so customers naturally cover the full assortment instead of dropping off mid-floor.`,
+          `Every floor plan starts with a journey map — entry decompression, hero display, category browse, demo, consultation and billing. Each transition is designed so customers naturally cover the full assortment instead of dropping off mid-floor. The map is informed by category logic, sales-team observations, and footfall heat-maps where available.`,
+          `Decompression — the first 1.5–2 metres past the entry — is the most undervalued zone in retail. Customers shed "outside mode" here, so we deliberately keep it product-light and brand-rich, often anchored to the ${L.brandExperience} so the first impression is identity, not inventory.`,
         ],
       },
       {
-        heading: "Why It Matters",
+        heading: "Why Flow Matters for Conversions",
         paragraphs: [
-          `Optimised flow lifts dwell time, attach rates and per-visit revenue. The same principles power layouts across our wider ${L.interiorPortfolio} of retail and commercial work.`,
+          `Optimised flow lifts dwell time, attach rates and per-visit revenue. The biggest gains usually come from three moves: opening up sightlines from the entry to the back wall, sequencing the ${L.displayZone} so each category leads naturally to the next, and giving the billing counter enough breathing room to absorb peak-hour rush without traffic jams.`,
+          `When flow is paired with disciplined ${L.vmLighting}, the floor practically guides itself. Customers move in the direction the brightest accent draws them, pause where the warmth invites them to pause, and convert where the consultation lounge feels comfortable. The same principles power layouts across our wider ${L.showroomPortfolio}.`,
+        ],
+      },
+      {
+        heading: "Practical Flow Strategies",
+        paragraphs: [
+          `Common moves we deploy: a clear "right-hand drift" past the decompression zone, a hero display angled at 30–45° from the entry to break monotony, secondary aisles wide enough for two visitors to pass without bumping bags, and dedicated try-on or demo zones placed deep inside so customers commit to the full journey before reaching them.`,
+          `For multi-floor showrooms, we use vertical anchors — feature staircases, double-height brand walls or visible mezzanine displays — to pull traffic upward. The discipline mirrors how we plan ${L.officeDesignerMain} floors and ${L.corporate} receptions, where first impressions and movement logic decide whether a visitor feels welcomed or lost.`,
+        ],
+      },
+      {
+        heading: "Budget & Cost Considerations",
+        paragraphs: [
+          `Reworking flow rarely demands a full fit-out — often a fixture relocation, a lighting layer change and a new billing counter position is enough. Even so, planning your budget early matters: use the ${L.costCalculator} for a quick range, and read the ${L.officeCostBlog} for a structured sense of showroom setup cost variables. For framing context against residential pricing, the ${L.costBlog} is a useful cross-reference.`,
         ],
       },
       {
         heading: "Our Track Record",
         paragraphs: [
-          `Our retail layouts in Gurgaon are tested against real footfall data — peak-hour congestion, queue management at billing and accessibility for senior visitors are all factored in.`,
+          `Our retail layouts in Gurgaon are tested against real footfall data — peak-hour congestion, queue management at billing and accessibility for senior visitors are all factored in. As a ${L.trustedDesigner} working across categories, we bring observations from ${L.kitchen} and ${L.living} planning into retail, where ergonomic clearances and movement patterns are surprisingly similar.`,
         ],
       },
     ],
@@ -1095,13 +1146,16 @@ export const seoMiniPages: Record<string, SeoMiniPageData> = {
       { title: "Reduced Drop-Off", body: "Sightlines that pull visitors deeper into the floor." },
       { title: "Smooth Billing", body: "Queue zones planned to absorb peak-hour rush." },
       { title: "Accessibility", body: "Aisle widths and ramps designed for every visitor." },
+      { title: "Vertical Pull", body: "Feature staircases and anchors that drive multi-floor traffic." },
+      { title: "Sales-Team Friendly", body: "Consultation zones positioned where the customer is ready to talk." },
     ],
     process: [
-      { title: "Brief & Brand Review", body: "Brand book, SKU mix and footfall data captured upfront." },
-      { title: "Concept & Layout", body: "Floor plan, fixture concept and lighting direction." },
-      { title: "BOQ Lock", body: "Line-item costing with material brands named." },
-      { title: "Joinery & Build", body: "Fixtures, walls and ceilings built in sequence." },
-      { title: "Commissioning", body: "Lighting calibration, VM install and snag-free handover." },
+      { title: "Footfall Audit", body: "Observation hours across weekdays and weekends." },
+      { title: "Journey Map", body: "Entry-to-billing path with decision moments highlighted." },
+      { title: "Layout Concept", body: "Floor plan options reviewed with your sales team." },
+      { title: "Fixture Re-plot", body: "Display, demo and consultation positions finalised." },
+      { title: "Light & VM Sync", body: "Lighting and merchandising aligned to the new flow." },
+      { title: "Soft-Launch Review", body: "Post-install audit to fine-tune any friction points." },
     ],
     trustPoints: baseTrust,
     ctaHeading: "Optimise Your Showroom Flow",
@@ -1115,39 +1169,58 @@ export const seoMiniPages: Record<string, SeoMiniPageData> = {
       "Showroom lighting and visual merchandising design in Gurgaon — accent, ambient and task layers tuned to lift product appeal and drive sales.",
     h1: "Lighting & Visual Merchandising in Showroom Interior Design Gurgaon",
     intro:
-      `Lighting is the most undervalued sales tool in retail. We design layered lighting schemes and visual merchandising systems in Gurgaon that make products look their best and stories read clearly. Browse related work via our ${L.showroomDesigner} page.`,
+      `Lighting is the most undervalued sales tool in retail. The same product, lit two different ways, can read as either premium or generic — and customers decide in the first three seconds. As the team behind ${L.showroomMain}, we design layered lighting schemes and visual merchandising systems in Gurgaon that make products look their best, make brand stories read clearly, and make every fixture earn its sq.ft.`,
     sections: [
       {
-        heading: "Layered Lighting Strategy",
+        heading: "A Layered Lighting Strategy",
         paragraphs: [
-          `We work with three layers — ambient, accent and task — calibrated by colour temperature and CRI to suit your product category. Apparel needs warmer, high-CRI light; jewellery and electronics demand sharper, cooler accents.`,
+          `We work with three layers — ambient, accent and task — calibrated by colour temperature (Kelvin) and colour rendering index (CRI) to suit your product category. Apparel needs warmer, high-CRI light around 3000K to flatter fabric and skin tone; jewellery and electronics demand sharper, cooler accents around 4000K with CRI above 90 to reveal sparkle and detail.`,
+          `Ambient layers handle baseline visibility, accents pull attention to hero pieces in the ${L.displayZone}, and task lights serve billing counters, fitting rooms and demo bays. When stitched into a single scheme, the floor reads as deliberate rather than over-lit — a signature of every ${L.experiencedTeam} retail project.`,
         ],
       },
       {
         heading: "Visual Merchandising That Converts",
         paragraphs: [
-          `VM systems — props, mannequins, signage and seasonal swap-ins — are designed alongside fixtures so refreshes are quick and on-brand. Reference projects sit within our ${L.interiorPortfolio}.`,
+          `VM systems — props, mannequins, signage, plinth styling and seasonal swap-ins — are designed alongside fixtures so refreshes are quick, on-brand and don't require carpenters every quarter. We build modular slot-and-clip systems into your wall units so your in-house VM team can roll out a new campaign in a day, not a week.`,
+          `Strong VM works hand-in-glove with deliberate ${L.customerFlow}: each accent moment is positioned where the customer's eye naturally lands as they walk the floor. Reference projects across our ${L.showroomPortfolio} show how a coherent VM rhythm visibly outperforms a floor with random accent lights and mismatched signage.`,
+        ],
+      },
+      {
+        heading: "Pairing Lighting With Brand Storytelling",
+        paragraphs: [
+          `Lighting is the secret weapon of any ${L.brandExperience}. Wash-lighting on a material library wall, sharp accents on a hero installation, and dim cove glow around a consultation lounge together create a journey of moods — even before the sales associate has said a word. We design these moods in 3D mock-ups so you sign off on the feel, not just the fixture spec.`,
+          `The same lighting discipline transfers to commercial work: our ${L.officeDesignerMain} and ${L.corporate} reception zones are lit with the same layered approach, which is one reason a ${L.trustedDesigner} like Cargo Interiors can move credibly between retail and corporate categories.`,
+        ],
+      },
+      {
+        heading: "Budget, Energy & Cost Planning",
+        paragraphs: [
+          `Lighting typically accounts for 8–15% of a showroom fit-out budget — a small share with disproportionate sales impact. For benchmarking the broader showroom setup cost, the ${L.officeCostBlog} mirrors retail spend structures closely; for residential context that helps frame component-level pricing, see the ${L.costBlog}. When you're ready to start planning your budget, the ${L.costCalculator} gives a quick directional range.`,
+          `Energy is the other half of the conversation. We specify LED systems sized for your operating hours, with drivers and lamp types chosen for easy in-house replacement — so your maintenance team isn't held hostage by a discontinued fixture two years later.`,
         ],
       },
       {
         heading: "Built for Real Showrooms",
         paragraphs: [
-          `Our lighting designs in Gurugram account for fixture glare, energy consumption and easy lamp replacement — practical considerations that keep your showroom looking sharp years after handover.`,
+          `Our lighting designs in Gurugram account for fixture glare, beam-angle overlap, energy consumption, lamp replacement access and the inevitable seasonal VM refresh. As an ${L.projects} firm, we've seen what fails after 18 months — hot spots that bleach merchandise, drivers that hum, dimmers that flicker — and we engineer those failures out from day one. The same care extends to our residential ${L.kitchen} and ${L.living} schemes, where lighting is treated with the same seriousness.`,
         ],
       },
     ],
     benefits: [
-      { title: "Higher Product Appeal", body: "Accent lighting tuned to your category and finishes." },
-      { title: "Energy-Efficient", body: "LED systems sized for low running cost." },
-      { title: "Easy Refresh", body: "VM fixtures designed for quick seasonal swaps." },
+      { title: "Higher Product Appeal", body: "Accent lighting tuned to your category, finishes and fabrics." },
+      { title: "Energy-Efficient", body: "LED systems sized for low running cost across long opening hours." },
+      { title: "Easy Refresh", body: "VM fixtures designed for quick seasonal swaps without trades." },
       { title: "Glare Control", body: "Beam angles and shielding planned to protect customer comfort." },
+      { title: "Brand-Aligned Mood", body: "Light temperatures matched to your brand personality." },
+      { title: "Maintenance-Friendly", body: "Standard lamp types and accessible drivers for in-house upkeep." },
     ],
     process: [
-      { title: "Brief & Brand Review", body: "Brand book, SKU mix and footfall data captured upfront." },
-      { title: "Concept & Layout", body: "Floor plan, fixture concept and lighting direction." },
-      { title: "BOQ Lock", body: "Line-item costing with material brands named." },
-      { title: "Joinery & Build", body: "Fixtures, walls and ceilings built in sequence." },
-      { title: "Commissioning", body: "Lighting calibration, VM install and snag-free handover." },
+      { title: "Brand & Category Brief", body: "Tone of voice and product mix translated to lighting goals." },
+      { title: "Lighting Concept", body: "Layered scheme with Kelvin, CRI and beam angles defined." },
+      { title: "VM Framework", body: "Modular props and signage systems planned alongside fixtures." },
+      { title: "BOQ & Brand Lock", body: "Line-item costing with luminaire and lamp brands named." },
+      { title: "Install & Calibrate", body: "Fixtures installed, beam angles aimed, dimmers programmed." },
+      { title: "VM Soft-Launch", body: "Stylists install opening campaign before doors open." },
     ],
     trustPoints: baseTrust,
     ctaHeading: "Light Your Showroom to Sell",
