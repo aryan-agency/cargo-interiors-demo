@@ -75,6 +75,14 @@ const L = {
   homeDesigner: a("/home-interior-designer-gurgaon", "home interior designer in Gurgaon"),
   officeDesigner: a("/office-interior-designer-in-gurgaon", "office interior designer in Gurgaon"),
   showroomDesigner: a("/showroom-interior-designer-gurgaon", "showroom interior designer in Gurgaon"),
+
+  // ---- Showroom cluster cross-links ----
+  showroomMain: a("/showroom-interior-designer-in-gurgaon", "showroom interior design in Gurgaon"),
+  showroomPortfolio: a("/interior-design-portfolio-gurgaon", "showroom interior design portfolio"),
+  displayZone: a("/product-display-zone-interior-design-in-gurgaon", "product display zone design"),
+  brandExperience: a("/brand-experience-area-interior-design-in-gurgaon", "brand experience area design"),
+  customerFlow: a("/customer-flow-optimization-in-showroom-design-gurgaon", "customer flow optimisation"),
+  vmLighting: a("/lighting-and-visual-merchandising-in-showroom-interior-design-gurgaon", "visual merchandising and lighting design"),
 };
 
 /* ---------------------------------------------------------------------------
