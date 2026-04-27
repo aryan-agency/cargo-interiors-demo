@@ -83,6 +83,26 @@ const L = {
   brandExperience: a("/brand-experience-area-interior-design-in-gurgaon", "brand experience area design"),
   customerFlow: a("/customer-flow-optimization-in-showroom-design-gurgaon", "customer flow optimisation"),
   vmLighting: a("/lighting-and-visual-merchandising-in-showroom-interior-design-gurgaon", "visual merchandising and lighting design"),
+
+  // ---- Showroom CATEGORY cluster (retail / fashion / electronics / luxury) ----
+  // Anchor variations are intentional — never repeat the same anchor twice on
+  // the same page. See cluster pages below for usage.
+  showroomMainAlt: a("/showroom-interior-designer-in-gurgaon", "expert showroom interior designers in Gurgaon"),
+  showroomMainTrust: a("/showroom-interior-designer-in-gurgaon", "trusted showroom design team in Gurgaon"),
+  showroomPortfolioCat: a("/showroom-interior-designer-in-gurgaon", "showroom interior design portfolio"),
+  bestDesignerAlt: a("/interior-designer-in-gurgaon", "premium interior design team in Gurgaon"),
+  costBlogShowroom: a("/blog/showroom-interior-design-cost-gurgaon", "showroom interior cost in Gurgaon"),
+  costBlogShowroomAlt: a("/blog/showroom-interior-design-cost-gurgaon", "showroom interior design cost guide"),
+  ideasBlogShowroom: a("/blog/showroom-interior-design-ideas-increase-sales-gurgaon", "showroom design ideas that boost sales"),
+  ideasBlogShowroomAlt: a("/blog/showroom-interior-design-ideas-increase-sales-gurgaon", "high-conversion showroom layout ideas"),
+  catRetail: a("/retail-showroom-interior-design-in-gurgaon", "retail showroom interior design"),
+  catRetailAlt: a("/retail-showroom-interior-design-in-gurgaon", "premium retail interior solutions"),
+  catFashion: a("/fashion-showroom-interior-design-in-gurgaon", "fashion showroom interior design"),
+  catFashionAlt: a("/fashion-showroom-interior-design-in-gurgaon", "apparel showroom interiors"),
+  catElectronics: a("/electronics-showroom-interior-design-in-gurgaon", "electronics showroom design"),
+  catElectronicsAlt: a("/electronics-showroom-interior-design-in-gurgaon", "consumer electronics retail interiors"),
+  catLuxury: a("/luxury-showroom-interior-design-in-gurgaon", "luxury showroom interiors"),
+  catLuxuryAlt: a("/luxury-showroom-interior-design-in-gurgaon", "luxury brand showroom design"),
 };
 
 /* ---------------------------------------------------------------------------
