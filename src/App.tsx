@@ -64,7 +64,7 @@ const App = () => (
             <Route path="/home-interior" element={<HomeInterior />} />
             <Route path="/interior-designer-gurgaon" element={<InteriorDesignerGurgaon />} />
             <Route path="/office-interior-designer-gurgaon" element={<OfficeInteriorDesigner />} />
-            <Route path="/showroom-interior-designer-gurgaon" element={<ShowroomInteriorDesigner />} />
+            <Route path="/showroom-interior-designer-gurgaon" element={<Navigate to="/showroom-interior-designer-in-gurgaon" replace />} />
             <Route path="/home-interior-designer-gurgaon" element={<HomeInteriorDesigner />} />
             <Route path="/best-interior-designer-in-gurugram" element={<BestInteriorDesignerGurugram />} />
             <Route path="/best-interior-designer-near-me-gurugram" element={<BestInteriorDesignerNearMe />} />
@@ -93,7 +93,7 @@ const App = () => (
             <Route path="/interior-design-portfolio-gurgaon" element={<Navigate to="/our-portfolio" replace />} />
             <Route path="/office-interior-designer-in-gurgaon" element={<OfficeInteriorDesigner />} />
             <Route path="/interior-designer-in-gurgaon" element={<InteriorDesignerGurgaon />} />
-            <Route path="/showroom-interior-designer-in-gurgaon" element={<Navigate to="/showroom-interior-designer-gurgaon" replace />} />
+            <Route path="/showroom-interior-designer-in-gurgaon" element={<ShowroomInteriorDesigner />} />
             <Route path="/interior-cost-calculator" element={<Navigate to="/interior-design-cost-calculator-gurugram" replace />} />
             <Route path="/blog" element={<Blog />} />
             <Route path="/blog/:slug" element={<BlogPost />} />
