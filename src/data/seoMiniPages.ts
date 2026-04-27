@@ -1226,4 +1226,162 @@ export const seoMiniPages: Record<string, SeoMiniPageData> = {
     ctaHeading: "Light Your Showroom to Sell",
     relatedLinks: relatedShowroom,
   },
+
+  /* ===================== SHOWROOM CATEGORY CLUSTER ======================= */
+
+  "retail-showroom-interior-design-in-gurgaon": {
+    slug: "retail-showroom-interior-design-in-gurgaon",
+    metaTitle: "Retail Showroom Interior Design in Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Retail showroom interior design in Gurgaon focused on conversion, branding and customer flow. Turnkey design and execution by Cargo Interiors.",
+    h1: "Retail Showroom Interior Design in Gurgaon",
+    intro:
+      `Cargo Interiors delivers retail showroom interior design in Gurgaon for stores that need to convert footfall into billing. Whether it is a high-street outlet, a mall storefront or a multi-brand retail space, we plan every square foot around shopper psychology and brand recall. Our work spans Gurgaon's busiest retail corridors, including MG Road, Cyber Hub and Galleria, and we deliver each project as a single-window turnkey build. If you are evaluating partners, our flagship ${L.showroomMain} service page outlines the full scope.`,
+    sections: [
+      {
+        heading: "What We Design for Retail Showrooms",
+        paragraphs: [
+          `Our retail showroom design covers store layout, fixtures, lighting, signage and customer flow as one integrated brief — not as separate vendors. We also work hand-in-hand with the broader ${L.bestDesigner} team to align retail interiors with your wider brand identity.`,
+        ],
+      },
+      {
+        heading: "Why Retail Showroom Design Matters",
+        paragraphs: [
+          `In retail, the store is the salesperson. Conversion, basket size and brand recall are all decided by layout, lighting and visual hierarchy. A well-designed retail showroom can lift conversion by 25–40% without changing the product mix. You can ballpark your build using our ${L.costCalculator} before booking a consult.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Conversion-First Layout", body: "Aisles, sightlines and hero zones planned around shopper behaviour." },
+      { title: "Brand-Led Identity", body: "Materials, signage and lighting tuned to your brand language." },
+      { title: "Premium Customer Experience", body: "Comfortable dwell zones that increase time spent in store." },
+      { title: "Turnkey Delivery", body: "Civil, MEP, joinery and lighting under one contract and one PM." },
+    ],
+    process: [
+      { title: "Brief & Footfall Study", body: "Shopper analysis, brand discovery and competitor walk-through." },
+      { title: "Layout & 3D Design", body: "Floor plan, fixtures and walkthrough-grade 3D for sign-off." },
+      { title: "Execution", body: "Turnkey civil, electrical, joinery and lighting on a fixed timeline." },
+      { title: "Handover", body: "Snag-free launch with a 12-month workmanship warranty." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Design a Retail Showroom That Sells",
+    relatedLinks: relatedShowroom,
+  },
+
+  "fashion-showroom-interior-design-in-gurgaon": {
+    slug: "fashion-showroom-interior-design-in-gurgaon",
+    metaTitle: "Fashion Showroom Interior Design in Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Fashion and apparel showroom interior design in Gurgaon. Premium mannequin staging, layered lighting and brand-immersive trial zones by Cargo Interiors.",
+    h1: "Fashion & Apparel Showroom Interior Design in Gurgaon",
+    intro:
+      `Fashion retail in Gurgaon has matured fast — and the stores that win are the ones that feel as considered as the collection on the rails. Cargo Interiors specialises in fashion and apparel showroom interior design in Gurgaon, building stores that read as premium from the shopfront in. We design boutiques, multi-brand outlets and flagship apparel showrooms across Galleria, MG Road and Sector 29. See our wider ${L.showroomMain} service for the full picture.`,
+    sections: [
+      {
+        heading: "What We Design for Fashion Showrooms",
+        paragraphs: [
+          `Our fashion showroom scope covers shopfront design, mannequin staging, fitting room journeys, layered display lighting and cash-counter zoning. As an established ${L.bestDesigner} studio, we keep the brand language consistent from façade to trial room.`,
+        ],
+      },
+      {
+        heading: "Why Fashion Showroom Design Matters",
+        paragraphs: [
+          `Apparel is a high-emotion, high-touch category — and the fitting room is where the sale is actually closed. Premium lighting, fabric-friendly mirrors and intuitive flow lift conversion and average bill value alike. Run a quick estimate with our ${L.costCalculator} before kicking off your design brief.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Premium Shopfront", body: "Façades that pull walk-ins from corridors and street-fronts." },
+      { title: "Trial-Room Experience", body: "Fitting rooms tuned for fabric colour accuracy and comfort." },
+      { title: "Layered Display Lighting", body: "Lighting that flatters fabric and elevates brand perception." },
+      { title: "Brand-Coherent Materials", body: "Finishes and details aligned with your collection language." },
+    ],
+    process: [
+      { title: "Brand & Collection Study", body: "Understanding silhouette, colour and the customer profile." },
+      { title: "Layout & Visual Plan", body: "Mannequin lines, rails, accessories and trial-room zoning." },
+      { title: "Execution", body: "Joinery, lighting and shopfront delivered by one accountable team." },
+      { title: "VM Soft-Launch", body: "Stylists set up the opening campaign before doors open." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Build a Fashion Showroom Worth Walking Into",
+    relatedLinks: relatedShowroom,
+  },
+
+  "electronics-showroom-interior-design-in-gurgaon": {
+    slug: "electronics-showroom-interior-design-in-gurgaon",
+    metaTitle: "Electronics Showroom Interior Design in Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Electronics showroom interior design in Gurgaon — interactive demo zones, durable displays and conversion-focused layouts by Cargo Interiors.",
+    h1: "Electronics Showroom Interior Design in Gurgaon",
+    intro:
+      `Electronics retail demands a very specific interior playbook — products are heavy, displays are technical, demo zones need power and data, and footfall can be relentless. Cargo Interiors delivers electronics showroom interior design in Gurgaon for consumer electronics, large appliances and mobile-and-IT formats. From neighbourhood multi-brand stores to flagship brand experience centres, our ${L.showroomMain} practice covers the full category.`,
+    sections: [
+      {
+        heading: "What We Design for Electronics Showrooms",
+        paragraphs: [
+          `Our scope covers product display walls, interactive demo bays, audio/video zones, queue-managed billing counters and high-durability flooring. We coordinate with your ${L.bestDesigner} of record and your brand team to keep visual identity consistent across stores.`,
+        ],
+      },
+      {
+        heading: "Why Electronics Showroom Design Matters",
+        paragraphs: [
+          `Electronics buyers research online and decide in-store — which means the demo experience is the conversion engine. Smart customer flow, clean cabling, and category-clear zoning increase confidence and lift average ticket size. Estimate the build cost upfront with our ${L.costCalculator}.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Interactive Demo Zones", body: "Live product zones that turn browsers into buyers." },
+      { title: "Heavy-Duty Display Systems", body: "Engineered for the weight and footfall of electronics retail." },
+      { title: "Category-Clear Zoning", body: "TVs, audio, mobiles and appliances with their own visual language." },
+      { title: "Smart Power & Data", body: "Concealed cabling, dedicated circuits and demo-ready outlets." },
+    ],
+    process: [
+      { title: "Category & SKU Study", body: "Mapping product mix, demo needs and footfall patterns." },
+      { title: "Layout & MEP Plan", body: "Display lines, demo bays and electrical/data backbone." },
+      { title: "Execution", body: "Civil, joinery, lighting and AV integrated under one PM." },
+      { title: "Handover & Support", body: "Snag-free launch and a 12-month workmanship warranty." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Design an Electronics Showroom That Demos and Sells",
+    relatedLinks: relatedShowroom,
+  },
+
+  "luxury-showroom-interior-design-in-gurgaon": {
+    slug: "luxury-showroom-interior-design-in-gurgaon",
+    metaTitle: "Luxury Brand Showroom Interior Design in Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Luxury showroom interior design in Gurgaon for jewellery, automobile and premium brands. Material-driven, gallery-grade interiors by Cargo Interiors.",
+    h1: "Luxury Brand Showroom Interior Design in Gurgaon",
+    intro:
+      `Luxury retail is the most unforgiving category in showroom design — every joint, every reveal and every lux level is on display. Cargo Interiors delivers luxury showroom interior design in Gurgaon for jewellery, automobile, watches and premium lifestyle brands across Gurugram. Our material-driven, gallery-grade interiors are built to perform on day one and to age gracefully over the brand's lease cycle. The flagship ${L.showroomMain} page covers our wider showroom practice.`,
+    sections: [
+      {
+        heading: "What We Design for Luxury Showrooms",
+        paragraphs: [
+          `Our luxury scope spans façade and signage, private viewing rooms, hero display vitrines, lounge-grade hospitality zones and concealed back-of-house. Many of our luxury clients also engage us as their ${L.bestDesigner} for adjacent corporate and hospitality projects.`,
+        ],
+      },
+      {
+        heading: "Why Luxury Showroom Design Matters",
+        paragraphs: [
+          `In luxury, the experience is the product. Material quality, lighting precision and one-on-one service zoning decide whether a high-net-worth visitor returns and refers. Get an early read on investment using our ${L.costCalculator}, then talk to us for a fixed-line BoQ.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Material-Driven Detail", body: "Stone, veneer, metal and glass executed to gallery standards." },
+      { title: "Private Viewing Rooms", body: "Discreet, concierge-grade zones for high-value transactions." },
+      { title: "Precision Lighting", body: "Beam-aimed accent lighting that brings product to life." },
+      { title: "Brand-Grade Finish", body: "Finishes selected for both visual richness and long lease-cycle wear." },
+    ],
+    process: [
+      { title: "Brand Immersion", body: "Deep dive into brand codes, customer rituals and reference flagships." },
+      { title: "Concept & 3D", body: "Gallery-grade concept with material samples and walkthrough 3D." },
+      { title: "Execution", body: "Specialist joinery, stone, glass and lighting trades under one PM." },
+      { title: "Launch", body: "Pre-launch styling, sign-off walk and 12-month workmanship warranty." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Build a Luxury Showroom Worthy of the Brand",
+    relatedLinks: relatedShowroom,
+  },
 };
