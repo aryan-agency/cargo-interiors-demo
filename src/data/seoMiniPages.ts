@@ -172,6 +172,20 @@ const relatedShowroomCategory = [
   { label: "Interior Cost Calculator", to: "/interior-design-cost-calculator-gurugram", description: "Estimate your showroom build in 2 minutes." },
 ];
 
+// Why-Cargo feature cluster — used by the 5 homepage feature-box pages.
+const relatedFeatureCluster = [
+  { label: "Best Interior Designer in Gurgaon", to: "/interior-designer-in-gurgaon", description: "Our flagship design service across homes and commercial spaces." },
+  { label: "Office Interior Designer in Gurgaon", to: "/office-interior-designer-in-gurgaon", description: "Turnkey workspace design for HQs, MNCs and growing teams." },
+  { label: "Showroom Interior Designer in Gurgaon", to: "/showroom-interior-designer-in-gurgaon", description: "Conversion-led retail and showroom interiors." },
+  { label: "100+ Project Track Record", to: "/interior-designer-projects-in-gurgaon", description: "A decade of delivered work across Gurgaon." },
+  { label: "Design + Execution", to: "/design-and-execution", description: "End-to-end delivery — one team, zero hand-off gaps." },
+  { label: "Rapid Delivery", to: "/rapid-delivery", description: "Streamlined process and 80+ person team built for speed." },
+  { label: "Premium Materials", to: "/premium-materials", description: "BWP carcasses, branded hardware and climate-tested finishes." },
+  { label: "Strategic Design", to: "/strategic-design", description: "Layouts backed by spatial psychology and brand strategy." },
+  { label: "Transparent Process", to: "/transparent-process", description: "Itemised BOQs, written timelines and milestone-linked payments." },
+  { label: "Interior Cost Calculator", to: "/interior-design-cost-calculator-gurugram", description: "Estimate your project budget in 2 minutes." },
+];
+
 /* ---------------------------------------------------------------------------
  * Pages
  * ------------------------------------------------------------------------- */
