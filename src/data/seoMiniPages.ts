@@ -1479,4 +1479,209 @@ export const seoMiniPages: Record<string, SeoMiniPageData> = {
     ctaHeading: "Build a Luxury Showroom Worthy of the Brand",
     relatedLinks: relatedShowroomCategory,
   },
+
+  /* ====================== HOMEPAGE FEATURE-BOX PAGES ===================== */
+
+  "design-and-execution": {
+    slug: "design-and-execution",
+    metaTitle: "Design + Execution Under One Roof | Cargo Interiors Gurgaon",
+    metaDescription:
+      "End-to-end interior design and execution in Gurgaon. One team handles concept, drawings, factory production, site delivery and handover.",
+    h1: "Design + Execution",
+    intro:
+      `We don't hand off drawings to a third-party contractor. Cargo Interiors designs, builds and delivers your space end-to-end — one team, one accountability, zero gaps between intent and execution.`,
+    sections: [
+      {
+        heading: "One Team From Concept to Handover",
+        paragraphs: [
+          `Most interior firms split design and execution across separate vendors. That gap is where timelines slip, materials get downgraded and scope quietly changes. We keep design, factory production and site delivery under a single PM so the space you saw in 3D is the space you walk into on day one.`,
+        ],
+      },
+      {
+        heading: "Why Integrated Delivery Matters",
+        paragraphs: [
+          `Integrated delivery means our designers know what our workshop can build, and our site engineers know what the drawings actually intend. The result is fewer RFIs, fewer change-orders and a finish quality that loose contractor models rarely match.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Single Accountability", body: "One contract, one PM, one team — from first sketch to final handover." },
+      { title: "Zero Hand-Off Loss", body: "No translation gaps between designer, contractor and site supervisor." },
+      { title: "Faster Decisions", body: "Design and execution sit in the same room — issues get resolved in hours, not weeks." },
+      { title: "Quality You Can Audit", body: "Daily site logs, factory QC and a senior designer on every milestone." },
+    ],
+    process: [
+      { title: "Brief & Survey", body: "Site measurement and a structured requirement deep-dive." },
+      { title: "Design & 3D", body: "Concept, layout options and photoreal 3Ds before production." },
+      { title: "Factory Production", body: "Modular cabinetry built in our controlled workshop." },
+      { title: "Site Execution", body: "Sequenced civil, MEP, ceilings, woodwork and finishing." },
+      { title: "Snag & Handover", body: "Joint walkthrough, defect closure and warranty issuance." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Talk to Our Design + Execution Team",
+    relatedLinks: relatedHome,
+  },
+
+  "rapid-delivery": {
+    slug: "rapid-delivery",
+    metaTitle: "Rapid Interior Delivery in Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Fast-track interior design and delivery in Gurgaon. Streamlined process, in-house factory and an 80+ person team built for speed without cutting corners.",
+    h1: "Rapid Delivery",
+    intro:
+      `Time is money. Our streamlined design-to-site workflow and 80+ person delivery team get your space ready when you actually need it — without trading speed for quality.`,
+    sections: [
+      {
+        heading: "Built for Speed, Not Shortcuts",
+        paragraphs: [
+          `Speed in interiors comes from process maturity, not from rushing labour. Pre-locked BOQs, parallel-tracked civil and joinery, and an in-house factory mean we compress timelines that normally stretch across vendors.`,
+        ],
+      },
+      {
+        heading: "Typical Delivery Windows",
+        paragraphs: [
+          `A 2BHK closes in 8–10 weeks, a 3BHK in 10–12 weeks and a villa in 14–18 weeks. Commercial offices and showrooms are scoped per floor plate. Every program is shared in writing with milestone-linked payments.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "80+ Person Team", body: "Designers, engineers, factory crew and site supervisors on payroll." },
+      { title: "In-House Factory", body: "Modular production runs in parallel with on-site civil work." },
+      { title: "Parallel Workstreams", body: "Civil, MEP, woodwork and finishing sequenced to overlap safely." },
+      { title: "Written Timelines", body: "Milestone-linked program shared on day one — and tracked weekly." },
+    ],
+    process: [
+      { title: "Day 0–3", body: "Brief, survey and indicative budget range." },
+      { title: "Week 1–2", body: "Concept, 3D and BOQ lock." },
+      { title: "Week 2–6", body: "Factory production and civil work in parallel." },
+      { title: "Week 6–10", body: "Installation, finishing and snagging." },
+      { title: "Handover", body: "Walk-through, defect closure and warranties." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Get a Realistic Delivery Timeline",
+    relatedLinks: relatedHome,
+  },
+
+  "premium-materials": {
+    slug: "premium-materials",
+    metaTitle: "Premium Interior Materials & Finishes | Cargo Interiors Gurgaon",
+    metaDescription:
+      "Premium plywood, hardware and finishes for interior projects in Gurgaon. BWP carcasses, branded hardware and finishes engineered to last.",
+    h1: "Premium Materials",
+    intro:
+      `We source materials that look exceptional and last. No shortcuts on carcasses, no mystery hardware, no cheap finishes pretending to be premium.`,
+    sections: [
+      {
+        heading: "What 'Premium' Actually Means",
+        paragraphs: [
+          `Premium isn't a marketing word for us — it's a written specification. BWP / BWR plywood carcasses, branded soft-close hardware (Hettich, Hafele, Blum), and finishes (PU, acrylic, veneer, laminate) chosen for Gurgaon's climate.`,
+        ],
+      },
+      {
+        heading: "Where We Spend, Where We Save",
+        paragraphs: [
+          `Carcasses, hardware and switches deserve premium spend — they decide how your space ages. Decor, accents and styling can be rationalised. We tell you the difference upfront, in writing.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "BWP / BWR Carcasses", body: "Boiling-water-resistant plywood across kitchens, vanities and wardrobes." },
+      { title: "Branded Hardware", body: "Hettich, Hafele and Blum soft-close hinges, slides and lift-ups." },
+      { title: "Climate-Tested Finishes", body: "PU, acrylic, laminate and veneer chosen for Gurgaon's heat and humidity." },
+      { title: "Branded Sanitary & Electrical", body: "Kohler, Jaquar, Grohe, Legrand and Schneider as standard." },
+    ],
+    process: [
+      { title: "Material Brief", body: "Lifestyle, climate and budget inputs translated into a material palette." },
+      { title: "Sample Approval", body: "Physical samples reviewed and signed off before production." },
+      { title: "BOQ Lock", body: "Material grades named explicitly — brand, finish and code." },
+      { title: "Factory QC", body: "Every panel and edge inspected before site dispatch." },
+      { title: "Site Verification", body: "Senior designer signs off on installed finishes." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "See Our Material Library",
+    relatedLinks: relatedHome,
+  },
+
+  "strategic-design": {
+    slug: "strategic-design",
+    metaTitle: "Strategic Interior Design in Gurgaon | Cargo Interiors",
+    metaDescription:
+      "Strategic interior design in Gurgaon — every layout decision backed by spatial psychology, brand strategy and clear business objectives.",
+    h1: "Strategic Design",
+    intro:
+      `Every layout decision we make is backed by spatial psychology, brand strategy and your business objectives. Beautiful is the baseline — strategic is the difference.`,
+    sections: [
+      {
+        heading: "Design With a Brief, Not Just a Mood Board",
+        paragraphs: [
+          `Strategic design starts with the question your space is actually trying to answer — conversion in a showroom, focus in an office, calm in a home. Layouts, materials and lighting all serve that brief, not the other way around.`,
+        ],
+      },
+      {
+        heading: "Decisions, Not Decoration",
+        paragraphs: [
+          `Furniture placement decides how people move. Lighting decides how long they stay. Materials decide how the brand feels. We make each decision deliberately, and we explain the why behind every choice.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Spatial Psychology", body: "Walk paths, sightlines and dwell zones designed to influence behaviour." },
+      { title: "Brand-First Choices", body: "Material, colour and lighting palettes mapped to brand identity." },
+      { title: "Business KPIs in the Brief", body: "Conversion, productivity or comfort named upfront and designed for." },
+      { title: "Justified Layouts", body: "Every plan choice is explained — no decisions hidden behind 'taste'." },
+    ],
+    process: [
+      { title: "Strategic Brief", body: "Business goal, audience and success metric defined together." },
+      { title: "Behavioural Mapping", body: "Walk paths, dwell points and friction zones mapped on plan." },
+      { title: "Concept", body: "Layout, materials and lighting tied back to the brief." },
+      { title: "Validation", body: "3D walkthrough reviewed against the original objectives." },
+      { title: "Execution", body: "Design intent protected on-site by the same senior team." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Brief Our Strategic Design Team",
+    relatedLinks: relatedHome,
+  },
+
+  "transparent-process": {
+    slug: "transparent-process",
+    metaTitle: "Transparent Interior Design Process | Cargo Interiors Gurgaon",
+    metaDescription:
+      "A transparent interior design process in Gurgaon — itemised proposals, clear timelines and honest communication from brief to handover.",
+    h1: "Transparent Process",
+    intro:
+      `Detailed proposals, clear timelines and honest communication. With Cargo Interiors, you always know exactly where your project stands — what's done, what's next, and what it costs.`,
+    sections: [
+      {
+        heading: "Everything in Writing, From Day One",
+        paragraphs: [
+          `Itemised BOQs, named material grades, written timelines and milestone-linked payments. There are no surprise change-orders, no quietly downgraded plywood, and no last-minute "extras" added to the final invoice.`,
+        ],
+      },
+      {
+        heading: "Communication That Doesn't Go Quiet",
+        paragraphs: [
+          `One project manager from concept to handover. Daily site photos, weekly progress reviews and a single WhatsApp thread for every decision. You'll never have to chase us for an update.`,
+        ],
+      },
+    ],
+    benefits: [
+      { title: "Itemised BOQs", body: "Every line item — quantity, rate, total — visible upfront." },
+      { title: "Milestone-Linked Payments", body: "Pay only for stages actually completed and verified on-site." },
+      { title: "Single Point of Contact", body: "One PM owns your project from first call to final handover." },
+      { title: "Daily Site Updates", body: "Photographs and progress shared every evening on WhatsApp." },
+      { title: "No Hidden Change-Orders", body: "Scope changes are quoted in writing and approved before execution." },
+      { title: "Written Warranties", body: "Carcass, hardware and finish warranties issued on letterhead." },
+    ],
+    process: [
+      { title: "Discovery Call", body: "Brief, budget appetite and non-negotiables captured in writing." },
+      { title: "Detailed Proposal", body: "Itemised BOQ with material grades named explicitly." },
+      { title: "Signed Scope Lock", body: "Both parties sign off scope and timeline before kick-off." },
+      { title: "Daily Site Logging", body: "Photos and progress shared every evening." },
+      { title: "Weekly Reviews", body: "Structured progress + spend review with the client." },
+      { title: "Snag-Free Handover", body: "Joint walkthrough and defect closure before final payment." },
+    ],
+    trustPoints: baseTrust,
+    ctaHeading: "Experience a Transparent Interior Project",
+    relatedLinks: relatedHome,
+  },
 };
